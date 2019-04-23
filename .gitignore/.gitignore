@@ -10,6 +10,9 @@ __pycache__/
 # C extensions
 *.so
 
+# big data model
+/model_saved/word_embedding/uncased_L-24_H-1024_A-16/
+
 # Distribution / packaging
 .Python
 build/
