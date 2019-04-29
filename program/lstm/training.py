@@ -6,20 +6,21 @@ from program.lstm.helperfunction.plot_figure import data_Visualization
 
 x_train, y_train = load_data("../dataset/pubmed_data/training.csv", sample_ratio=1, one_hot=False)
 x_test, y_test = load_data("../dataset/pubmed_data/test.csv", one_hot=False)
-
+print("train size: ", len(x_train))
+print("label size", len(y_train))
 # data preprocessing
-x_train, x_test, vocab_size, train_words, test_words, tokenizer = data_preprocessing_v2(x_train, x_test, max_len=200,
+x_train, x_test, vocab_size, train_words, test_words, tokenizer = data_preprocessing_v2(x_train, x_test, max_len=32,
                                                                              max_words=50000)
 print("train size: ", len(x_train))
 print("vocab size: ", vocab_size)
-
+print("label size", len(y_train))
 # split dataset to test and dev
 x_test, x_dev, y_test, y_dev, dev_size, test_size = split_dataset(x_test, y_test, 0.1)
 print("Validation Size: ", dev_size)
 
 config = {
-    "max_len": 200,
-    "hidden_size": 72,
+    "max_len": 32,
+    "hidden_size": 96,
     "vocab_size": vocab_size,
     "embedding_size": 128,
     "n_class": 7,

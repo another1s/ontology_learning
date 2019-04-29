@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import csv
 from program.analyse import Daedalus, Paper
 import re
+from nltk.corpus import stopwords
 
 
 def readfile(filename, path = '../dataset/pubmed_data/'):
@@ -10,7 +11,12 @@ def readfile(filename, path = '../dataset/pubmed_data/'):
     dict_reader = csv.DictReader(csvfile)
     return dict_reader
 
-
+def save_to_local(keywords, filename):
+    with open(filename, 'a') as f:
+        for keyword in keywords:
+            f.writelines(str(keyword))
+            f.write('\n')
+        f.close()
 def filtering_words(text):
     s = re.sub("[\'\\\\/\"\\n\]\[]", "", text)
     return s
@@ -36,9 +42,17 @@ def killerqueen():
     keywords_per_paper = 50
     paper = Paper()
     corpus = Daedalus()
-    papers = readfile('file2.csv')
+    papers = readfile('training2.csv')
+    words = stopwords.words('english')
+    print(words)
     for row in papers:
-        paper.define(row['title'], filtering_words(row['abstract']), filtering_words(row['authorlist']), filtering_words(row['features']), None)
+        #a = row['\ufefflabel']
+        paper.define(row['\ufefflabel'], row['title'], filtering_words(row['abstract']), filtering_words(row['features']), filtering_words(row['authorlist']), None)
+        filtered_words = [word for word in paper.abstract.split() if word not in stopwords.words('english')]
+        d =''
+        for r in filtered_words:
+            d = d + ' ' + r
+        paper.abstract = d
         corpus.add_paper(paper)
         corpus.add_author(paper)
 
@@ -63,6 +77,7 @@ def killerqueen():
             _keywords.append(words[element])
         keywords.append(_keywords)
     print(keywords)
-
+    save_to_local(keywords, "keywords.csv")
     return keywords, vectorized_keywords, tfidf, corpus
 
+keywords, vectorized_keywords, tfidf, corpus = killerqueen()

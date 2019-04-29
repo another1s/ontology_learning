@@ -26,8 +26,9 @@ class Paper:
     author_list = list()
     word_dict = dict()
     keywords = list()
-
-    def define(self, title, abstract, author_list=None, keywords =None, word_dict=None):
+    label = None
+    def define(self, label, title, abstract,keywords, author_list, word_dict=None):
+        self.label = label
         self.title = title
         self.abstract = abstract
         self.author_list = author_list
@@ -91,7 +92,7 @@ class Daedalus:
                 self.corpus_word_dictionary[word] = self.corpus_word_dictionary[word] + 1
             if t2 == 0:
                 self.corpus_word_dictionary[word] = 1
-        p.define(paper.title, paper.abstract, paper.author_list, paper.keywords, word_dict)
+        p.define(paper.label, paper.title, paper.abstract, paper.author_list, paper.keywords, word_dict)
         self.corpus_paper_list.append(p)
     # fetch the authors of each paper
     # rank is defined as average author rank

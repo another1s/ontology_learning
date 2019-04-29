@@ -3,19 +3,19 @@ import pandas as pd
 import tensorflow as tf
 from keras_preprocessing.sequence import pad_sequences
 from sklearn.utils import shuffle
-names = ["class", "title", "content"]
+names = ["label", "title", "abstract", "keywords","authorlist"]
 
 
 def to_one_hot(y, n_class):
     return np.eye(n_class)[y.astype(int)]
 
 
-def load_data(file_name, sample_ratio=1, n_class=15, names=names, one_hot=True):
+def load_data(file_name, sample_ratio=1, n_class=5, names=names, one_hot=True):
     '''load data from .csv file'''
     csv_file = pd.read_csv(file_name, names=names)
     shuffle_csv = csv_file.sample(frac=sample_ratio)
-    x = pd.Series(shuffle_csv["content"])
-    y = pd.Series(shuffle_csv["class"])
+    x = pd.Series(shuffle_csv["abstract"])
+    y = pd.Series(shuffle_csv["label"])
     if one_hot:
         y = to_one_hot(y, n_class)
     return x, y
@@ -39,9 +39,16 @@ def data_preprocessing(train, test, max_len):
 
 def data_preprocessing_v2(train, test, max_len, max_words=50000):
     tokenizer = tf.keras.preprocessing.text.Tokenizer(num_words=max_words)
-    tokenizer.fit_on_texts(train)
-    train_idx = tokenizer.texts_to_sequences(train)
-    test_idx = tokenizer.texts_to_sequences(test)
+    print(len(train))
+    a= list()
+    b= list()
+    for i in train:
+        a.append(str(i))
+    for j in test:
+        b.append(str(j))
+    tokenizer.fit_on_texts(a)
+    train_idx = tokenizer.texts_to_sequences(a)
+    test_idx = tokenizer.texts_to_sequences(b)
     train_words = tokenizer.sequences_to_texts(train_idx)
     test_words = tokenizer.sequences_to_texts(test_idx)
     train_padded = pad_sequences(train_idx, maxlen=max_len, padding='post', truncating='post')
