@@ -17,6 +17,14 @@ def save_to_local(keywords, filename):
             f.writelines(str(keyword))
             f.write('\n')
         f.close()
+
+def save_all(paperlist, filename):
+    with open(filename, 'a') as f:
+        for paper in paperlist:
+            f.writelines([paper.label, paper.abstract, paper.author_list, paper.index, paper.keywords, paper.vectorized_keywords])
+        f.write('\n')
+        f.close()
+
 def filtering_words(text):
     s = re.sub("[\'\\\\/\"\\n\]\[]", "", text)
     return s
@@ -31,6 +39,8 @@ class FeatureExtraction:
         vectorizer = TfidfVectorizer()
         result = vectorizer.fit_transform(corpus0)
         name = vectorizer.get_feature_names()
+        with open('tfidf.pickle','w', encoding='utf=8') as f:
+            pickle.dump(vectorizer, f, protocol=pickle.HIGHEST_PROTOCOL)
         return result, name
     def reload(self, corpus0, vectorizer):
         result = vectorizer.fit_transform(corpus0)
@@ -81,6 +91,7 @@ def killerqueen():
     save_to_local(vectorized_keywords, "vectorized_keywords")
     for paper, keyword, vectorized_keyword in zip(corpus.corpus_paper_list, keywords, vectorized_keywords):
         paper.computed_features(keywords=keyword, vectorized_keywords=vectorized_keyword)
+    save_all(corpus.corpus_paper_list, "comprehensive.csv")
     return keywords, vectorized_keywords, tfidf, corpus
 
 def killerqueen_release(fname, mname):
