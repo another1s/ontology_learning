@@ -52,7 +52,7 @@ def classifier(modelpath, datapath):
         test_acc = 0
         predict = list()
         for x_batch, y_batch in fill_feed_dict(x_test, y_test, config["batch_size"]):
-            acc, pre= run_eval_step0(x, label, keep_prob, prediction, sess, (x_batch, y_batch))
+            acc, pre = run_eval_step0(x, label, keep_prob, prediction, sess, (x_batch, y_batch))
             test_acc += acc
             predict.append(pre)
             cnt += 1

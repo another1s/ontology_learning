@@ -26,6 +26,7 @@ class Paper:
     author_list = list()
     word_dict = dict()
     keywords = list()
+    vectorized_keywords = list()
     label = None
     def define(self, label, title, abstract,keywords, author_list, word_dict=None):
         self.label = label
@@ -35,6 +36,9 @@ class Paper:
         self.keywords = keywords
         self.word_dict = word_dict
 
+    def computed_features(self, vectorized_keywords, keywords):
+        self.keywords = keywords
+        self.vectorized_keywords = vectorized_keywords
 
 class Daedalus:
     corpus_word_dictionary = dict()

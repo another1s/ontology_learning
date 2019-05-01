@@ -1,7 +1,7 @@
 from bert_serving.server.helper import get_args_parser
 from bert_serving.server import BertServer
 from bert_serving.client import BertClient
-from program.ontology_tree import killerqueen
+from program.paper_preprocess import killerqueen
 import re
 model_path = 'D:/cs8740/model_saved/word_embedding/uncased_L-24_H-1024_A-16/uncased_L-24_H-1024_A-16/'
 
