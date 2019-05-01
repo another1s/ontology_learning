@@ -28,12 +28,14 @@ class Paper:
     keywords = list()
     vectorized_keywords = list()
     label = None
-    def define(self, label, title, abstract,keywords, author_list, word_dict=None):
+    index = None
+    def define(self, label, title, abstract,keywords, author_list, index, word_dict=None):
         self.label = label
         self.title = title
         self.abstract = abstract
         self.author_list = author_list
         self.keywords = keywords
+        self.index = index
         self.word_dict = word_dict
 
     def computed_features(self, vectorized_keywords, keywords):
@@ -96,7 +98,7 @@ class Daedalus:
                 self.corpus_word_dictionary[word] = self.corpus_word_dictionary[word] + 1
             if t2 == 0:
                 self.corpus_word_dictionary[word] = 1
-        p.define(paper.label, paper.title, paper.abstract, paper.author_list, paper.keywords, word_dict)
+        p.define(paper.label, paper.title, paper.abstract, paper.author_list, paper.keywords, paper.index, word_dict)
         self.corpus_paper_list.append(p)
     # fetch the authors of each paper
     # rank is defined as average author rank

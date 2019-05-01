@@ -47,7 +47,7 @@ def killerqueen():
     print(words)
     for row in papers:
         #a = row['\ufefflabel']
-        paper.define(row['\ufefflabel'], row['title'], filtering_words(row['abstract']), filtering_words(row['features']), filtering_words(row['authorlist']), None)
+        paper.define(row['\ufefflabel'], row['title'], filtering_words(row['abstract']), filtering_words(row['features']), filtering_words(row['authorlist']), row['index'], None)
         filtered_words = [word for word in paper.abstract.split() if word not in stopwords.words('english')]
         d =''
         for r in filtered_words:

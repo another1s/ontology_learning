@@ -21,3 +21,4 @@ def main(file_name, model_name):
         tree = load_tree(category)
         tree.compare(paper, predicted_depth)
 
+

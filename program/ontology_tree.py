@@ -1,4 +1,7 @@
 import numpy as np
+import csv
+import json
+from program.paper_preprocess import Paper
 MPATH = '../model_saved/ml_model/'
 DPATH = '../dataset/'
 
@@ -10,9 +13,9 @@ class Node:
     depth = None
     paper_collection = list()
 
-    def __init__(self, father, word, depth, papers):
+    def __init__(self, father, children, word, depth, papers):
         self.father = father
-        self.children_list = []
+        self.children_list = children
         self.node_name = word
         self.depth = depth
         self.paper_collection = papers
@@ -34,13 +37,18 @@ class Tree:
         self.node_list = []
         return
 
+    def add_node(self, node):
+        self.node_list.append(node)
+        return
+
     def merge(self, paper, node):
         node.paper_collection.append(paper)
         return len(node.paper_collection)
 
     def insert(self, paper, node):
-        new_son = Node(father=node, word=paper.keywords[0], depth=node.depth+1, papers=[paper])
-        node.children_list.append(new_son)
+        new_son = Node(father=node, word=paper.keywords[0], children=[] ,depth=node.depth+1, papers=[paper])
+        node.children_list.append(new_son.node_name)
+        self.node_list.append(new_son)
         return "new branches created"
 
     def compare(self, target, depth, threshold=0.7):
@@ -64,7 +72,7 @@ class Tree:
             correspond_node = p[index].node.father
             print(correspond_node.node_name)
             print(self.insert(target, correspond_node))
-
+    '''
     def search(self, node, paper_keywords):
         if node.node_name == paper_keywords:
             self.flag = 1
@@ -75,20 +83,64 @@ class Tree:
                 if self.flag == 1:
                     return
         return
+    '''
+def save_tree(root, tree):
+    t = dict()
+    t['root'] = tree.root
+    t['node_list'] = list()
+    for node in tree.node_list:
+        detail =dict()
+        detail['father'] = node.father
+        detail['node_name'] = node.node_name
+        detail['depth'] = node.depth
+        l1 = list()
+        l2 = list()
+        for i in node.paper_collection:
+            l1.append(i.index)
+        for j in node.children_list:
+            l2.append(j.node_name)
+        detail['paper_collection'] = l1
+        detail['children_list'] = l2
+        t['node_list'].append(detail)
+    js_str = json.dumps(t)
+    with open(root + '_tree.json', 'w', encoding='utf-8') as f:
+        f.write(js_str)
+    return "saving object successfully"
 
-    def tree_dfs(self, paper_keywords):
-        self.flag = 0
-        self.search(self.root, paper_keywords)
-        if (self.flag == 1):
-            return True
-        else:
-            return False
-
-
-def save_tree(t):
-
-    return
+def load_paper_data(m):
+    with open("comprehensive.csv",'r') as f:
+        dict_reader = csv.DictReader(f)
+    i = dict_reader['index'].index(m)
+    p = Paper()
+    p.title = dict_reader['title'][i]
+    p.abstract = dict_reader['abstract'][i]
+    p.author_list = dict_reader['author_list'][i]
+    p.word_dict = dict_reader['word_dict'][i]
+    p.keywords = dict_reader['keywords'][i]
+    p.vectorized_keywords = dict_reader['vectorized_keywords'][i]
+    p.label = dict_reader['label'][i]
+    p.index = dict_reader['index'][i]
+    return p
 
 def load_tree(root):
-    tree = root
-    return tree
+    t = Tree()
+    with open(root + '_tree.json', 'w', encoding='utf-8') as f:
+        load_dict = json.loads(f)
+    t.root = load_dict['root']
+    for n in load_dict['node_list']:
+        father = n['father']
+        node_name = n['node_name']
+        depth = n['depth']
+        children_list = n['children_list']
+        paper_collection = n['paper_collection']
+        node = Node(father=father, word=node_name, depth=depth,children=children_list ,papers=paper_collection)
+        t.node_list.append(node)
+
+    # reconstruct
+    for n in t.node_list:
+        w = list()
+        for m in n.paper_collection:
+            paper = load_paper_data(m)
+            w.append(paper)
+        n.paper_collection = w
+    return t
