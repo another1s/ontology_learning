@@ -21,7 +21,7 @@ def save_to_local(keywords, filename):
 def save_all(paperlist, filename):
     with open(filename, 'a') as f:
         for paper in paperlist:
-            f.writelines([paper.label, paper.abstract, paper.author_list, paper.index, paper.keywords, paper.vectorized_keywords])
+            f.writelines([paper.label, str(paper.abstract), str(paper.index), str(paper.keywords), str(paper.vectorized_keywords)])
         f.write('\n')
         f.close()
 
@@ -39,7 +39,7 @@ class FeatureExtraction:
         vectorizer = TfidfVectorizer()
         result = vectorizer.fit_transform(corpus0)
         name = vectorizer.get_feature_names()
-        with open('tfidf.pickle','w', encoding='utf=8') as f:
+        with open('tfidf.pickle','wb+') as f:
             pickle.dump(vectorizer, f, protocol=pickle.HIGHEST_PROTOCOL)
         return result, name
     def reload(self, corpus0, vectorizer):
@@ -113,7 +113,7 @@ def killerqueen_release(fname, mname):
         corpus.add_paper(paper)
         corpus.add_author(paper)
 
-    with open(mname + '.pickle', 'r') as f:
+    with open(mname + '.pickle', 'rb') as f:
         vectorizer = pickle.load(f)
 
     FE = FeatureExtraction()
