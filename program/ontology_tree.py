@@ -144,3 +144,4 @@ def load_tree(root):
             w.append(paper)
         n.paper_collection = w
     return t
+

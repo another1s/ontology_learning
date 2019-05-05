@@ -1,4 +1,4 @@
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 class data_Visualization:
 
@@ -11,6 +11,7 @@ class data_Visualization:
         return
 
     def accuracy(self, x, accuracy):
+
         plt.xlabel("epoch")
         plt.ylabel("accuracy")
         plt.title("training accuracy")

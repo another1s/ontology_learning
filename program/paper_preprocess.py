@@ -11,10 +11,10 @@ def readfile(filename, path = '../dataset/pubmed_data/'):
     dict_reader = csv.DictReader(csvfile)
     return dict_reader
 
-def save_to_local(keywords, filename):
+def save_to_local(keywords,index ,filename):
     with open(filename, 'a') as f:
         for keyword in keywords:
-            f.writelines(str(keyword))
+            f.writelines([str(keyword), index])
             f.write('\n')
         f.close()
 
@@ -87,7 +87,7 @@ def killerqueen():
             _keywords.append(words[element])
         keywords.append(_keywords)
     print(keywords)
-    save_to_local(keywords, "keywords.csv")
+    save_to_local(keywords ,"keywords.csv")
     save_to_local(vectorized_keywords, "vectorized_keywords")
     for paper, keyword, vectorized_keyword in zip(corpus.corpus_paper_list, keywords, vectorized_keywords):
         paper.computed_features(keywords=keyword, vectorized_keywords=vectorized_keyword)
