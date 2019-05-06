@@ -30,13 +30,13 @@ config = {
 
 
 max_len = 32
-x_train, y_train = load_data("./dataset/pubmed_data/training.csv", sample_ratio=1, one_hot=False)
-x_test0, y_test = load_data("./dataset/pubmed_data/test.csv", one_hot=False)
-x_train, x_test, vocab_size, train_words, test_words, tokenizer = data_preprocessing_v2(x_train, x_test0, max_len=32, max_words=50000)
-with open('./model_saved/word_embedding/tokenizer.pickle', 'wb') as handle:
+x_train, y_train = load_data("D:/cs8740/dataset/pubmed_data/training.csv", sample_ratio=1, one_hot=False)
+x_test0, y_test = load_data("D:/cs8740/dataset/pubmed_data/test.csv", one_hot=False)
+x_train, x_test, vocab_size, train_words, test_words, tokenizer = data_preprocessing_v2(x_train, x_test0, max_len=32, max_words=60000)
+with open('D:/cs8740/model_saved/word_embedding/tokenizer.pickle', 'wb') as handle:
     pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-with open('./model_saved/word_embedding/tokenizer.pickle', 'rb') as handle:
+with open('D:/cs8740/model_saved/word_embedding/tokenizer.pickle', 'rb') as handle:
     tokenizer1 = pickle.load(handle)
 
 test_idx = tokenizer1.texts_to_sequences(x_test0)

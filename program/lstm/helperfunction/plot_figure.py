@@ -14,7 +14,7 @@ class data_Visualization:
 
         plt.xlabel("epoch")
         plt.ylabel("accuracy")
-        plt.title("training accuracy")
+        plt.title("validation_accuracy")
         plt.plot(x, accuracy, "b")
         plt.savefig("validation_accuracy.png")
         plt.show()

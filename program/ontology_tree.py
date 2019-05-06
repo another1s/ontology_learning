@@ -2,6 +2,7 @@ import numpy as np
 import csv
 import json
 from program.paper_preprocess import Paper
+from enum import Enum
 MPATH = '../model_saved/ml_model/'
 DPATH = '../dataset/'
 
@@ -36,6 +37,24 @@ class Tree:
         self.root = root
         self.node_list = []
         return
+
+    def find_node(self, name):
+        for node in self.node_list:
+            if name == node.node_name:
+                return node
+        return 0
+
+    def add_son(self, father, son):
+        counter = 0
+        f_index = 0
+        s_index = 0
+        for node in self.node_list:
+            if node.node_name == father:
+                f_index = counter
+            if node.node_name == son:
+                s_index = counter
+            counter = counter + 1
+        self.node_list[f_index].children_list.append(self.node_list[s_index])
 
     def add_node(self, node):
         self.node_list.append(node)
@@ -133,7 +152,7 @@ def load_tree(root):
         depth = n['depth']
         children_list = n['children_list']
         paper_collection = n['paper_collection']
-        node = Node(father=father, word=node_name, depth=depth,children=children_list ,papers=paper_collection)
+        node = Node(father=father, word=node_name, depth=depth,children=children_list,papers=paper_collection)
         t.node_list.append(node)
 
     # reconstruct
@@ -145,3 +164,59 @@ def load_tree(root):
         n.paper_collection = w
     return t
 
+
+
+def initial_tree_data(filename,forest,corpus):
+    f = open(filename, 'r', encoding='utf-8')
+    csvfile = csv.DictReader(f)
+    for row in csvfile:
+        father_node = row['father node']
+        index = row['index']
+        depth = row['depth']
+        label = row['label']
+        paper = corpus.find_paper(index)
+        tree_name = diease(int(label)).name
+
+        node = forest[tree_name].find_node(father_node)
+        if not node:
+            node.paper_collection.append(paper)
+
+    return forest
+
+class diease(Enum):
+    BM = 2
+    VI = 0
+    PA = 1
+    NE = 3
+    MD = 4
+    DS = 5
+    ST = 6
+def basic_meshtree(filename):
+    forest = {'BM': [], 'VI': [], 'PA': [], 'NE': [], 'MD': [], 'DS': [], 'ST': []}
+    for key in forest.keys():
+        forest[key] = Tree(key)
+    f = open(filename, 'r', encoding='utf-8')
+    csvfile = csv.DictReader(f)
+    for row in csvfile:
+        label = row['label']
+        group = diease(int(label)).name
+        nodename = row['node_name']
+        depth = row['depth']
+        father = row['father']
+        N = Node(father=father,children=[], depth=depth, word=nodename, papers=[])
+        forest[group].add_node(N)
+
+    f = open(filename, 'r', encoding='utf-8')
+    csvfile = csv.DictReader(f)
+    for row in csvfile:
+        father = row['father']
+        nodename = row['node_name']
+        label = row['label']
+        group = diease(int(label)).name
+        forest[group].add_son(father=father, son=nodename)
+
+    return forest
+
+
+
+ontology_forest = basic_meshtree('data.csv')

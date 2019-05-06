@@ -1,0 +1,1693 @@
+father,node_name,depth,label
+Diseases,Bacterial Infections and Mycoses,1,2
+Bacterial Infections and Mycoses,Bacterial Infections,2,2
+Bacterial Infections,Bacteremia,3,2
+Bacteremia,Hemorrhagic Septicemia,4,2
+Bacterial Infections,Central Nervous System Bacterial Infections,3,2
+Central Nervous System Bacterial Infections,Lyme Neuroborreliosis,4,2
+Central Nervous System Bacterial Infections,"Meningitis, Bacterial",4,2
+Central Nervous System Bacterial Infections,Neurosyphilis,4,2
+Bacterial Infections,"Endocarditis, Bacterial",3,2
+"Endocarditis, Bacterial","Endocarditis, Subacute Bacterial",4,2
+Bacterial Infections,"Eye Infections, Bacterial",3,2
+"Eye Infections, Bacterial","Conjunctivitis, Bacterial",4,2
+"Eye Infections, Bacterial",Hordeolum,4,2
+"Eye Infections, Bacterial","Keratoconjunctivitis, Infectious",4,2
+"Eye Infections, Bacterial","Tuberculosis, Ocular",4,2
+"Eye Infections, Bacterial","Uveitis, Suppurative",4,2
+Bacterial Infections,Fournier Gangrene,3,2
+Bacterial Infections,Gram-Negative Bacterial Infections,3,2
+Gram-Negative Bacterial Infections,Aliivibrio Infections,4,2
+Gram-Negative Bacterial Infections,Anaplasmataceae Infections,4,2
+Gram-Negative Bacterial Infections,Bacteroidaceae Infections,4,2
+Gram-Negative Bacterial Infections,Bartonellaceae Infections,4,2
+Gram-Negative Bacterial Infections,Bordetella Infections,4,2
+Gram-Negative Bacterial Infections,Borrelia Infections,4,2
+Gram-Negative Bacterial Infections,Brucellosis,4,2
+Gram-Negative Bacterial Infections,Burkholderia Infections,4,2
+Gram-Negative Bacterial Infections,Campylobacter Infections,4,2
+Gram-Negative Bacterial Infections,Cat-Scratch Disease,4,2
+Gram-Negative Bacterial Infections,Chlamydiaceae Infections,4,2
+Gram-Negative Bacterial Infections,Cytophagaceae Infections,4,2
+Gram-Negative Bacterial Infections,Desulfovibrionaceae Infections,4,2
+Gram-Negative Bacterial Infections,Enterobacteriaceae Infections,4,2
+Gram-Negative Bacterial Infections,Flavobacteriaceae Infections,4,2
+Gram-Negative Bacterial Infections,Fusobacteriaceae Infections,4,2
+Gram-Negative Bacterial Infections,Helicobacter Infections,4,2
+Gram-Negative Bacterial Infections,Legionellosis,4,2
+Gram-Negative Bacterial Infections,Leptospirosis,4,2
+Gram-Negative Bacterial Infections,Moraxellaceae Infections,4,2
+Gram-Negative Bacterial Infections,Mycoplasmatales Infections,4,2
+Gram-Negative Bacterial Infections,Neisseriaceae Infections,4,2
+Gram-Negative Bacterial Infections,Pasteurellaceae Infections,4,2
+Gram-Negative Bacterial Infections,Piscirickettsiaceae Infections,4,2
+Gram-Negative Bacterial Infections,Pseudomonas Infections,4,2
+Gram-Negative Bacterial Infections,Q Fever,4,2
+Gram-Negative Bacterial Infections,Rat-Bite Fever,4,2
+Gram-Negative Bacterial Infections,Rickettsiaceae Infections,4,2
+Gram-Negative Bacterial Infections,Tick-Borne Diseases,4,2
+Gram-Negative Bacterial Infections,Treponemal Infections,4,2
+Gram-Negative Bacterial Infections,Tularemia,4,2
+Gram-Negative Bacterial Infections,Vibrio Infections,4,2
+Bacterial Infections,Gram-Positive Bacterial Infections,3,2
+Gram-Positive Bacterial Infections,Actinomycetales Infections,4,2
+Gram-Positive Bacterial Infections,Bacillaceae Infections,4,2
+Gram-Positive Bacterial Infections,Bifidobacteriales Infections,4,2
+Gram-Positive Bacterial Infections,Clostridium Infections,4,2
+Gram-Positive Bacterial Infections,Erysipelothrix Infections,4,2
+Gram-Positive Bacterial Infections,Listeriosis,4,2
+Gram-Positive Bacterial Infections,Staphylococcal Infections,4,2
+Gram-Positive Bacterial Infections,Streptococcal Infections,4,2
+Bacterial Infections,"Pneumonia, Bacterial",3,2
+"Pneumonia, Bacterial",Chlamydial Pneumonia,4,2
+"Pneumonia, Bacterial","Pneumonia of Calves, Enzootic",4,2
+"Pneumonia, Bacterial","Pneumonia of Swine, Mycoplasmal",4,2
+"Pneumonia, Bacterial","Pneumonia, Mycoplasma",4,2
+"Pneumonia, Bacterial","Pneumonia, Pneumococcal",4,2
+"Pneumonia, Bacterial","Pneumonia, Rickettsial",4,2
+"Pneumonia, Bacterial","Pneumonia, Staphylococcal",4,2
+Bacterial Infections,"Sexually Transmitted Diseases, Bacterial",3,2
+"Sexually Transmitted Diseases, Bacterial",Chancroid,4,2
+"Sexually Transmitted Diseases, Bacterial",Chlamydia Infections,4,2
+"Sexually Transmitted Diseases, Bacterial",Gonorrhea,4,2
+"Sexually Transmitted Diseases, Bacterial",Granuloma Inguinale,4,2
+"Sexually Transmitted Diseases, Bacterial",Syphilis,4,2
+Bacterial Infections,"Skin Diseases, Bacterial",3,2
+"Skin Diseases, Bacterial","Actinomycosis, Cervicofacial",4,2
+"Skin Diseases, Bacterial","Angiomatosis, Bacillary",4,2
+"Skin Diseases, Bacterial",Digital Dermatitis,4,2
+"Skin Diseases, Bacterial",Ecthyma,4,2
+"Skin Diseases, Bacterial",Erysipelas,4,2
+"Skin Diseases, Bacterial",Erythema Chronicum Migrans,4,2
+"Skin Diseases, Bacterial",Erythrasma,4,2
+"Skin Diseases, Bacterial","Fasciitis, Necrotizing",4,2
+"Skin Diseases, Bacterial",Granuloma Inguinale,4,2
+"Skin Diseases, Bacterial",Hidradenitis Suppurativa,4,2
+"Skin Diseases, Bacterial",Mycetoma,4,2
+"Skin Diseases, Bacterial",Pinta,4,2
+"Skin Diseases, Bacterial",Rhinoscleroma,4,2
+"Skin Diseases, Bacterial",Staphylococcal Skin Infections,4,2
+"Skin Diseases, Bacterial","Syphilis, Cutaneous",4,2
+"Skin Diseases, Bacterial","Tuberculosis, Cutaneous",4,2
+"Skin Diseases, Bacterial",Yaws,4,2
+Bacterial Infections,Spirochaetales Infections,3,2
+Spirochaetales Infections,Borrelia Infections,4,2
+Spirochaetales Infections,Leptospirosis,4,2
+Spirochaetales Infections,Treponemal Infections,4,2
+Bacterial Infections,"Vaginosis, Bacterial",3,2
+Bacterial Infections and Mycoses,Central Nervous System Infections,2,2
+Central Nervous System Infections,Brain Abscess,3,2
+Brain Abscess,"Toxoplasmosis, Cerebral",4,2
+Central Nervous System Infections,Central Nervous System Bacterial Infections,3,2
+Bacterial Infections and Mycoses,Infection,2,2
+Infection,"Aneurysm, Infected",3,2
+Infection,"Arthritis, Infectious",3,2
+"Arthritis, Infectious","Arthritis, Reactive",4,2
+Infection,"Bone Diseases, Infectious",3,2
+"Bone Diseases, Infectious",Osteomyelitis,4,2
+"Bone Diseases, Infectious",Periostitis,4,2
+"Bone Diseases, Infectious",Spondylitis,4,2
+"Bone Diseases, Infectious","Tuberculosis, Osteoarticular",4,2
+Infection,Cardiovascular Infections,3,2
+Cardiovascular Infections,"Endocarditis, Bacterial",4,2
+Cardiovascular Infections,"Syphilis, Cardiovascular",4,2
+Cardiovascular Infections,"Tuberculosis, Cardiovascular",4,2
+Infection,Catheter-Related Infections,3,2
+Infection,Coinfection,3,2
+Infection,Communicable Diseases,3,2
+Communicable Diseases,"Communicable Diseases, Emerging",4,2
+Communicable Diseases,"Communicable Diseases, Imported",4,2
+Communicable Diseases,Waterborne Diseases,4,2
+Infection,Community-Acquired Infections,3,2
+Infection,Cross Infection,3,2
+Cross Infection,Healthcare-Associated Pneumonia,4,2
+Cross Infection,"Pneumonia, Ventilator-Associated",4,2
+Infection,Eye Infections,3,2
+Eye Infections,Corneal Ulcer,4,2
+Eye Infections,Endophthalmitis,4,2
+Eye Infections,"Eye Infections, Bacterial",4,2
+Eye Infections,"Eye Infections, Fungal",4,2
+Infection,Focal Infection,3,2
+Focal Infection,"Focal Infection, Dental",4,2
+Infection,"Gingivitis, Necrotizing Ulcerative",3,2
+Infection,Intraabdominal Infections,3,2
+Intraabdominal Infections,Appendicitis,4,2
+Intraabdominal Infections,Diverticular Diseases,4,2
+Intraabdominal Infections,Peritonitis,4,2
+Intraabdominal Infections,Typhlitis,4,2
+Infection,Laboratory Infection,3,2
+Infection,Ludwig's Angina,3,2
+Infection,Opportunistic Infections,3,2
+Opportunistic Infections,AIDS-Related Opportunistic Infections,4,2
+Opportunistic Infections,Superinfection,4,2
+Infection,Pelvic Infection,3,2
+Pelvic Infection,Pelvic Inflammatory Disease,4,2
+Infection,"Pregnancy Complications, Infectious",3,2
+"Pregnancy Complications, Infectious","Abortion, Septic",4,2
+"Pregnancy Complications, Infectious",Puerperal Infection,4,2
+Infection,Prosthesis-Related Infections,3,2
+Infection,Reproductive Tract Infections,3,2
+Infection,Respiratory Tract Infections,3,2
+Respiratory Tract Infections,"Empyema, Pleural",4,2
+Respiratory Tract Infections,Whooping Cough,4,2
+Infection,Sepsis,3,2
+Sepsis,Bacteremia,4,2
+Sepsis,Fungemia,4,2
+Sepsis,Neonatal Sepsis,4,2
+Sepsis,"Shock, Septic",4,2
+Infection,Sexually Transmitted Diseases,3,2
+Sexually Transmitted Diseases,"Sexually Transmitted Diseases, Bacterial",4,2
+Infection,"Skin Diseases, Infectious",3,2
+"Skin Diseases, Infectious",Cellulitis,4,2
+"Skin Diseases, Infectious",Dermatomycoses,4,2
+"Skin Diseases, Infectious",Paronychia,4,2
+"Skin Diseases, Infectious","Skin Diseases, Bacterial",4,2
+Infection,Soft Tissue Infections,3,2
+Infection,Suppuration,3,2
+Suppuration,Abscess,4,2
+Suppuration,Cellulitis,4,2
+Suppuration,Empyema,4,2
+Suppuration,Hidradenitis Suppurativa,4,2
+Suppuration,"Otitis Media, Suppurative",4,2
+Suppuration,Pyomyositis,4,2
+Suppuration,"Thyroiditis, Suppurative",4,2
+Suppuration,"Uveitis, Suppurative",4,2
+Infection,Toxemia,3,2
+Toxemia,Endotoxemia,4,2
+Infection,Urinary Tract Infections,3,2
+Urinary Tract Infections,Bacteriuria,4,2
+Urinary Tract Infections,Pyuria,4,2
+Urinary Tract Infections,Schistosomiasis haematobia,4,2
+Infection,Wound Infection,3,2
+Wound Infection,Surgical Wound Infection,4,2
+Bacterial Infections and Mycoses,Mycoses,2,2
+Mycoses,Aspergillosis,3,2
+Aspergillosis,Neuroaspergillosis,4,2
+Aspergillosis,Pulmonary Aspergillosis,4,2
+Mycoses,Candidiasis,3,2
+Candidiasis,"Candidiasis, Chronic Mucocutaneous",4,2
+Candidiasis,"Candidiasis, Cutaneous",4,2
+Candidiasis,"Candidiasis, Invasive",4,2
+Candidiasis,"Candidiasis, Oral",4,2
+Candidiasis,"Candidiasis, Vulvovaginal",4,2
+Mycoses,Central Nervous System Fungal Infections,3,2
+Central Nervous System Fungal Infections,"Meningitis, Fungal",4,2
+Mycoses,Coccidioidomycosis,3,2
+Mycoses,Cryptococcosis,3,2
+Cryptococcosis,"Meningitis, Cryptococcal",4,2
+Mycoses,Dermatomycoses,3,2
+Dermatomycoses,Blastomycosis,4,2
+Dermatomycoses,"Candidiasis, Chronic Mucocutaneous",4,2
+Dermatomycoses,"Candidiasis, Cutaneous",4,2
+Dermatomycoses,Chromoblastomycosis,4,2
+Dermatomycoses,Hyalohyphomycosis,4,2
+Dermatomycoses,Lobomycosis,4,2
+Dermatomycoses,Mycetoma,4,2
+Dermatomycoses,Sporotrichosis,4,2
+Dermatomycoses,Tinea,4,2
+Dermatomycoses,Tinea Versicolor,4,2
+Mycoses,"Eye Infections, Fungal",3,2
+"Eye Infections, Fungal","Uveitis, Suppurative",4,2
+Mycoses,Geotrichosis,3,2
+Mycoses,Histoplasmosis,3,2
+Mycoses,Invasive Fungal Infections,3,2
+Invasive Fungal Infections,"Candidiasis, Invasive",4,2
+Invasive Fungal Infections,Fungemia,4,2
+Invasive Fungal Infections,Invasive Pulmonary Aspergillosis,4,2
+Invasive Fungal Infections,Neuroaspergillosis,4,2
+Mycoses,"Lung Diseases, Fungal",3,2
+"Lung Diseases, Fungal",Blastomycosis,4,2
+"Lung Diseases, Fungal","Pneumonia, Pneumocystis",4,2
+Mycoses,Microsporidiosis,3,2
+Microsporidiosis,Encephalitozoonosis,4,2
+Mycoses,Otomycosis,3,2
+Mycoses,Paracoccidioidomycosis,3,2
+Mycoses,Phaeohyphomycosis,3,2
+Phaeohyphomycosis,Cerebral Phaeohyphomycosis,4,2
+Mycoses,Piedra,3,2
+Mycoses,Pneumocystis Infections,3,2
+Pneumocystis Infections,"Pneumonia, Pneumocystis",4,2
+Mycoses,Trichosporonosis,3,2
+Mycoses,Zygomycosis,3,2
+Zygomycosis,Mucormycosis,4,2
+Bacterial Infections and Mycoses,Zoonoses,2,2
+Diseases,Virus Diseases,1,0
+Virus Diseases,Arbovirus Infections,2,0
+Arbovirus Infections,African Horse Sickness,3,0
+Arbovirus Infections,Bluetongue,3,0
+Arbovirus Infections,Dengue,3,0
+Dengue,Severe Dengue,4,0
+Arbovirus Infections,"Encephalitis, Arbovirus",3,0
+"Encephalitis, Arbovirus","Encephalitis, California",4,0
+"Encephalitis, Arbovirus","Encephalitis, Japanese",4,0
+"Encephalitis, Arbovirus","Encephalitis, St. Louis",4,0
+"Encephalitis, Arbovirus","Encephalitis, Tick-Borne",4,0
+"Encephalitis, Arbovirus",West Nile Fever,4,0
+Arbovirus Infections,"Encephalomyelitis, Equine",3,0
+"Encephalomyelitis, Equine","Encephalomyelitis, Eastern Equine",4,0
+"Encephalomyelitis, Equine","Encephalomyelitis, Venezuelan Equine",4,0
+"Encephalomyelitis, Equine","Encephalomyelitis, Western Equine",4,0
+Arbovirus Infections,Phlebotomus Fever,3,0
+Arbovirus Infections,Rift Valley Fever,3,0
+Arbovirus Infections,Tick-Borne Diseases,3,0
+Tick-Borne Diseases,African Swine Fever,4,0
+Tick-Borne Diseases,Colorado Tick Fever,4,0
+Tick-Borne Diseases,"Encephalitis, Tick-Borne",4,0
+Tick-Borne Diseases,"Hemorrhagic Fever, Crimean",4,0
+Tick-Borne Diseases,"Hemorrhagic Fever, Omsk",4,0
+Tick-Borne Diseases,Kyasanur Forest Disease,4,0
+Tick-Borne Diseases,Nairobi Sheep Disease,4,0
+Arbovirus Infections,Yellow Fever,3,0
+Arbovirus Infections,Zika Virus Infection,3,0
+Virus Diseases,"Bronchiolitis, Viral",2,0
+Virus Diseases,Central Nervous System Viral Diseases,2,0
+Central Nervous System Viral Diseases,"Encephalitis, Viral",3,0
+"Encephalitis, Viral","Encephalitis, Arbovirus",4,0
+"Encephalitis, Viral","Encephalitis, Herpes Simplex",4,0
+"Encephalitis, Viral","Encephalitis, Varicella Zoster",4,0
+"Encephalitis, Viral","Encephalomyelitis, Equine",4,0
+"Encephalitis, Viral","Leukoencephalopathy, Progressive Multifocal",4,0
+"Encephalitis, Viral",Subacute Sclerosing Panencephalitis,4,0
+Central Nervous System Viral Diseases,"Meningitis, Viral",3,0
+"Meningitis, Viral",Lymphocytic Choriomeningitis,4,0
+Central Nervous System Viral Diseases,Pseudorabies,3,0
+Virus Diseases,Coinfection,2,0
+Virus Diseases,DNA Virus Infections,2,0
+DNA Virus Infections,Adenoviridae Infections,3,0
+Adenoviridae Infections,"Adenovirus Infections, Human",4,0
+Adenoviridae Infections,"Hepatitis, Infectious Canine",4,0
+DNA Virus Infections,African Swine Fever,3,0
+DNA Virus Infections,Circoviridae Infections,3,0
+Circoviridae Infections,Porcine Postweaning Multisystemic Wasting Syndrome,4,0
+DNA Virus Infections,Hepadnaviridae Infections,3,0
+Hepadnaviridae Infections,Hepatitis B,4,0
+DNA Virus Infections,Herpesviridae Infections,3,0
+Herpesviridae Infections,Bell Palsy,4,0
+Herpesviridae Infections,Cytomegalovirus Infections,4,0
+Herpesviridae Infections,"Encephalitis, Herpes Simplex",4,0
+Herpesviridae Infections,Epstein-Barr Virus Infections,4,0
+Herpesviridae Infections,Herpes Simplex,4,0
+Herpesviridae Infections,Infectious Bovine Rhinotracheitis,4,0
+Herpesviridae Infections,Malignant Catarrh,4,0
+Herpesviridae Infections,Marek Disease,4,0
+Herpesviridae Infections,Pseudorabies,4,0
+Herpesviridae Infections,Roseolovirus Infections,4,0
+Herpesviridae Infections,"Sarcoma, Kaposi",4,0
+Herpesviridae Infections,Varicella Zoster Virus Infection,4,0
+DNA Virus Infections,Papillomavirus Infections,3,0
+Papillomavirus Infections,Warts,4,0
+DNA Virus Infections,Parvoviridae Infections,3,0
+Parvoviridae Infections,Aleutian Mink Disease,4,0
+Parvoviridae Infections,Erythema Infectiosum,4,0
+Parvoviridae Infections,Feline Panleukopenia,4,0
+Parvoviridae Infections,Mink Viral Enteritis,4,0
+DNA Virus Infections,Polyomavirus Infections,3,0
+Polyomavirus Infections,"Carcinoma, Merkel Cell",4,0
+Polyomavirus Infections,"Leukoencephalopathy, Progressive Multifocal",4,0
+DNA Virus Infections,Poxviridae Infections,3,0
+Poxviridae Infections,Cowpox,4,0
+Poxviridae Infections,"Ecthyma, Contagious",4,0
+Poxviridae Infections,"Ectromelia, Infectious",4,0
+Poxviridae Infections,Fowlpox,4,0
+Poxviridae Infections,Lumpy Skin Disease,4,0
+Poxviridae Infections,Molluscum Contagiosum,4,0
+Poxviridae Infections,Monkeypox,4,0
+Poxviridae Infections,"Myxomatosis, Infectious",4,0
+Poxviridae Infections,Smallpox,4,0
+Poxviridae Infections,Vaccinia,4,0
+Virus Diseases,"Encephalitis, Viral",2,0
+"Encephalitis, Viral","Encephalitis, Arbovirus",3,0
+"Encephalitis, Arbovirus","Encephalitis, California",4,0
+"Encephalitis, Arbovirus","Encephalitis, Japanese",4,0
+"Encephalitis, Arbovirus","Encephalitis, St. Louis",4,0
+"Encephalitis, Arbovirus","Encephalitis, Tick-Borne",4,0
+"Encephalitis, Arbovirus",West Nile Fever,4,0
+"Encephalitis, Viral","Encephalitis, Herpes Simplex",3,0
+"Encephalitis, Viral","Encephalitis, Varicella Zoster",3,0
+"Encephalitis, Viral","Encephalomyelitis, Equine",3,0
+"Encephalomyelitis, Equine","Encephalomyelitis, Eastern Equine",4,0
+"Encephalomyelitis, Equine","Encephalomyelitis, Venezuelan Equine",4,0
+"Encephalomyelitis, Equine","Encephalomyelitis, Western Equine",4,0
+"Encephalitis, Viral","Leukoencephalopathy, Progressive Multifocal",3,0
+"Encephalitis, Viral",Subacute Sclerosing Panencephalitis,3,0
+Virus Diseases,"Eye Infections, Viral",2,0
+"Eye Infections, Viral","Conjunctivitis, Viral",3,0
+"Conjunctivitis, Viral","Conjunctivitis, Acute Hemorrhagic",4,0
+"Eye Infections, Viral",Cytomegalovirus Retinitis,3,0
+"Eye Infections, Viral",Herpes Zoster Ophthalmicus,3,0
+"Eye Infections, Viral","Keratitis, Herpetic",3,0
+"Keratitis, Herpetic","Keratitis, Dendritic",4,0
+Virus Diseases,"Fatigue Syndrome, Chronic",2,0
+Virus Diseases,"Hepatitis, Viral, Animal",2,0
+"Hepatitis, Viral, Animal","Hepatitis, Infectious Canine",3,0
+"Hepatitis, Viral, Animal",Rift Valley Fever,3,0
+Virus Diseases,"Hepatitis, Viral, Human",2,0
+"Hepatitis, Viral, Human",Hepatitis A,3,0
+"Hepatitis, Viral, Human",Hepatitis B,3,0
+Hepatitis B,"Hepatitis B, Chronic",4,0
+"Hepatitis, Viral, Human",Hepatitis C,3,0
+Hepatitis C,"Hepatitis C, Chronic",4,0
+"Hepatitis, Viral, Human",Hepatitis D,3,0
+Hepatitis D,"Hepatitis D, Chronic",4,0
+"Hepatitis, Viral, Human",Hepatitis E,3,0
+Virus Diseases,Opportunistic Infections,2,0
+Opportunistic Infections,AIDS-Related Opportunistic Infections,3,0
+Opportunistic Infections,Superinfection,3,0
+Virus Diseases,"Pneumonia, Viral",2,0
+Virus Diseases,RNA Virus Infections,2,0
+RNA Virus Infections,Arenaviridae Infections,3,0
+Arenaviridae Infections,"Hemorrhagic Fever, American",4,0
+Arenaviridae Infections,Lassa Fever,4,0
+Arenaviridae Infections,Lymphocytic Choriomeningitis,4,0
+RNA Virus Infections,Astroviridae Infections,3,0
+RNA Virus Infections,Birnaviridae Infections,3,0
+RNA Virus Infections,Bunyaviridae Infections,3,0
+Bunyaviridae Infections,"Encephalitis, California",4,0
+Bunyaviridae Infections,Hantavirus Infections,4,0
+Bunyaviridae Infections,"Hemorrhagic Fever, Crimean",4,0
+Bunyaviridae Infections,Nairobi Sheep Disease,4,0
+Bunyaviridae Infections,Phlebotomus Fever,4,0
+Bunyaviridae Infections,Rift Valley Fever,4,0
+RNA Virus Infections,Caliciviridae Infections,3,0
+Caliciviridae Infections,Vesicular Exanthema of Swine,4,0
+RNA Virus Infections,"Encephalitis, Arbovirus",3,0
+"Encephalitis, Arbovirus","Encephalitis, California",4,0
+"Encephalitis, Arbovirus","Encephalitis, Japanese",4,0
+"Encephalitis, Arbovirus","Encephalitis, St. Louis",4,0
+"Encephalitis, Arbovirus","Encephalitis, Tick-Borne",4,0
+"Encephalitis, Arbovirus",West Nile Fever,4,0
+RNA Virus Infections,Flaviviridae Infections,3,0
+Flaviviridae Infections,Flavivirus Infections,4,0
+Flaviviridae Infections,Hepatitis C,4,0
+Flaviviridae Infections,Pestivirus Infections,4,0
+RNA Virus Infections,"Hemorrhagic Fevers, Viral",3,0
+"Hemorrhagic Fevers, Viral",Dengue,4,0
+"Hemorrhagic Fevers, Viral",Hemorrhagic Fever with Renal Syndrome,4,0
+"Hemorrhagic Fevers, Viral","Hemorrhagic Fever, American",4,0
+"Hemorrhagic Fevers, Viral","Hemorrhagic Fever, Crimean",4,0
+"Hemorrhagic Fevers, Viral","Hemorrhagic Fever, Ebola",4,0
+"Hemorrhagic Fevers, Viral","Hemorrhagic Fever, Omsk",4,0
+"Hemorrhagic Fevers, Viral",Kyasanur Forest Disease,4,0
+"Hemorrhagic Fevers, Viral",Lassa Fever,4,0
+"Hemorrhagic Fevers, Viral",Marburg Virus Disease,4,0
+"Hemorrhagic Fevers, Viral",Rift Valley Fever,4,0
+"Hemorrhagic Fevers, Viral",Yellow Fever,4,0
+RNA Virus Infections,Hepatitis D,3,0
+Hepatitis D,"Hepatitis D, Chronic",4,0
+RNA Virus Infections,Hepatitis E,3,0
+RNA Virus Infections,Mononegavirales Infections,3,0
+Mononegavirales Infections,Borna Disease,4,0
+Mononegavirales Infections,Filoviridae Infections,4,0
+Mononegavirales Infections,Paramyxoviridae Infections,4,0
+Mononegavirales Infections,Rhabdoviridae Infections,4,0
+RNA Virus Infections,Nidovirales Infections,3,0
+Nidovirales Infections,Arterivirus Infections,4,0
+Nidovirales Infections,Coronaviridae Infections,4,0
+RNA Virus Infections,Orthomyxoviridae Infections,3,0
+Orthomyxoviridae Infections,Influenza in Birds,4,0
+Orthomyxoviridae Infections,"Influenza, Human",4,0
+RNA Virus Infections,Picornaviridae Infections,3,0
+Picornaviridae Infections,Cardiovirus Infections,4,0
+Picornaviridae Infections,Common Cold,4,0
+Picornaviridae Infections,Enterovirus Infections,4,0
+Picornaviridae Infections,Foot-and-Mouth Disease,4,0
+RNA Virus Infections,Reoviridae Infections,3,0
+Reoviridae Infections,African Horse Sickness,4,0
+Reoviridae Infections,Bluetongue,4,0
+Reoviridae Infections,Colorado Tick Fever,4,0
+Reoviridae Infections,Rotavirus Infections,4,0
+RNA Virus Infections,Retroviridae Infections,3,0
+Retroviridae Infections,Avian Leukosis,4,0
+Retroviridae Infections,Deltaretrovirus Infections,4,0
+Retroviridae Infections,Lentivirus Infections,4,0
+Retroviridae Infections,"Leukemia, Feline",4,0
+Retroviridae Infections,Murine Acquired Immunodeficiency Syndrome,4,0
+Retroviridae Infections,"Pulmonary Adenomatosis, Ovine",4,0
+Retroviridae Infections,"Sarcoma, Avian",4,0
+RNA Virus Infections,Togaviridae Infections,3,0
+Togaviridae Infections,Alphavirus Infections,4,0
+Togaviridae Infections,Rubivirus Infections,4,0
+Virus Diseases,Sexually Transmitted Diseases,2,0
+Sexually Transmitted Diseases,"Sexually Transmitted Diseases, Viral",3,0
+"Sexually Transmitted Diseases, Viral",Condylomata Acuminata,4,0
+"Sexually Transmitted Diseases, Viral",Herpes Genitalis,4,0
+"Sexually Transmitted Diseases, Viral",HIV Infections,4,0
+Virus Diseases,"Skin Diseases, Viral",2,0
+"Skin Diseases, Viral",Erythema Infectiosum,3,0
+"Skin Diseases, Viral",Exanthema Subitum,3,0
+"Skin Diseases, Viral",Herpes Simplex,3,0
+Herpes Simplex,Herpes Labialis,4,0
+Herpes Simplex,Kaposi Varicelliform Eruption,4,0
+"Skin Diseases, Viral",Molluscum Contagiosum,3,0
+"Skin Diseases, Viral",Warts,3,0
+Warts,Condylomata Acuminata,4,0
+Warts,Epidermodysplasia Verruciformis,4,0
+Virus Diseases,Slow Virus Diseases,2,0
+Slow Virus Diseases,Acquired Immunodeficiency Syndrome,3,0
+Slow Virus Diseases,AIDS-Related Complex,3,0
+Slow Virus Diseases,Aleutian Mink Disease,3,0
+Slow Virus Diseases,Equine Infectious Anemia,3,0
+Slow Virus Diseases,Feline Acquired Immunodeficiency Syndrome,3,0
+Slow Virus Diseases,"Leukoencephalopathy, Progressive Multifocal",3,0
+Slow Virus Diseases,"Pneumonia, Progressive Interstitial, of Sheep",3,0
+Slow Virus Diseases,Simian Acquired Immunodeficiency Syndrome,3,0
+Slow Virus Diseases,Subacute Sclerosing Panencephalitis,3,0
+Slow Virus Diseases,Visna,3,0
+Virus Diseases,Tumor Virus Infections,2,0
+Tumor Virus Infections,Avian Leukosis,3,0
+Tumor Virus Infections,"Carcinoma, Merkel Cell",3,0
+Tumor Virus Infections,Epstein-Barr Virus Infections,3,0
+Epstein-Barr Virus Infections,Burkitt Lymphoma,4,0
+Tumor Virus Infections,Marek Disease,3,0
+Tumor Virus Infections,Murine Acquired Immunodeficiency Syndrome,3,0
+Tumor Virus Infections,Papillomavirus Infections,3,0
+Tumor Virus Infections,"Pulmonary Adenomatosis, Ovine",3,0
+Tumor Virus Infections,"Sarcoma, Avian",3,0
+Tumor Virus Infections,Warts,3,0
+Warts,Condylomata Acuminata,4,0
+Warts,Epidermodysplasia Verruciformis,4,0
+Virus Diseases,Viremia,2,0
+Virus Diseases,Zoonoses,2,0
+Diseases,Parasitic Diseases,1,1
+Parasitic Diseases,Central Nervous System Parasitic Infections,2,1
+Central Nervous System Parasitic Infections,Central Nervous System Helminthiasis,3,1
+Central Nervous System Helminthiasis,Neurocysticercosis,4,1
+Central Nervous System Helminthiasis,Neuroschistosomiasis,4,1
+Central Nervous System Parasitic Infections,Central Nervous System Protozoal Infections,3,1
+Central Nervous System Protozoal Infections,"Malaria, Cerebral",4,1
+Central Nervous System Protozoal Infections,"Toxoplasmosis, Cerebral",4,1
+Parasitic Diseases,Coinfection,2,1
+Parasitic Diseases,"Eye Infections, Parasitic",2,1
+"Eye Infections, Parasitic",Acanthamoeba Keratitis,3,1
+"Eye Infections, Parasitic","Onchocerciasis, Ocular",3,1
+"Eye Infections, Parasitic","Toxoplasmosis, Ocular",3,1
+Parasitic Diseases,Helminthiasis,2,1
+Helminthiasis,Cestode Infections,3,1
+Cestode Infections,Diphyllobothriasis,4,1
+Cestode Infections,Echinococcosis,4,1
+Cestode Infections,Hymenolepiasis,4,1
+Cestode Infections,Monieziasis,4,1
+Cestode Infections,Taeniasis,4,1
+Helminthiasis,"Helminthiasis, Animal",3,1
+"Helminthiasis, Animal",Dictyocaulus Infections,4,1
+"Helminthiasis, Animal",Dirofilariasis,4,1
+"Helminthiasis, Animal",Fascioloidiasis,4,1
+"Helminthiasis, Animal",Monieziasis,4,1
+"Helminthiasis, Animal",Setariasis,4,1
+"Helminthiasis, Animal","Strongyle Infections, Equine",4,1
+"Helminthiasis, Animal",Toxocariasis,4,1
+Helminthiasis,Nematode Infections,3,1
+Nematode Infections,Adenophorea Infections,4,1
+Nematode Infections,Larva Migrans,4,1
+Nematode Infections,Secernentea Infections,4,1
+Helminthiasis,Trematode Infections,3,1
+Trematode Infections,Clonorchiasis,4,1
+Trematode Infections,Dicrocoeliasis,4,1
+Trematode Infections,Echinostomiasis,4,1
+Trematode Infections,Fascioliasis,4,1
+Trematode Infections,Fascioloidiasis,4,1
+Trematode Infections,Opisthorchiasis,4,1
+Trematode Infections,Paragonimiasis,4,1
+Trematode Infections,Schistosomiasis,4,1
+Parasitic Diseases,"Intestinal Diseases, Parasitic",2,1
+"Intestinal Diseases, Parasitic",Anisakiasis,3,1
+"Intestinal Diseases, Parasitic",Balantidiasis,3,1
+"Intestinal Diseases, Parasitic",Blastocystis Infections,3,1
+"Intestinal Diseases, Parasitic",Cryptosporidiosis,3,1
+"Intestinal Diseases, Parasitic",Dientamoebiasis,3,1
+"Intestinal Diseases, Parasitic","Dysentery, Amebic",3,1
+"Intestinal Diseases, Parasitic",Giardiasis,3,1
+Parasitic Diseases,"Liver Diseases, Parasitic",2,1
+"Liver Diseases, Parasitic","Echinococcosis, Hepatic",3,1
+"Liver Diseases, Parasitic",Fascioliasis,3,1
+"Liver Diseases, Parasitic","Liver Abscess, Amebic",3,1
+Parasitic Diseases,"Lung Diseases, Parasitic",2,1
+"Lung Diseases, Parasitic","Echinococcosis, Pulmonary",3,1
+Parasitic Diseases,Mesomycetozoea Infections,2,1
+Mesomycetozoea Infections,Rhinosporidiosis,3,1
+Parasitic Diseases,Opportunistic Infections,2,1
+Opportunistic Infections,AIDS-Related Opportunistic Infections,3,1
+Opportunistic Infections,Superinfection,3,1
+Parasitic Diseases,Parasitemia,2,1
+Parasitic Diseases,"Parasitic Diseases, Animal",2,1
+"Parasitic Diseases, Animal","Helminthiasis, Animal",3,1
+"Helminthiasis, Animal",Dictyocaulus Infections,4,1
+"Helminthiasis, Animal",Dirofilariasis,4,1
+"Helminthiasis, Animal",Fascioloidiasis,4,1
+"Helminthiasis, Animal",Monieziasis,4,1
+"Helminthiasis, Animal",Setariasis,4,1
+"Helminthiasis, Animal","Strongyle Infections, Equine",4,1
+"Helminthiasis, Animal",Toxocariasis,4,1
+"Parasitic Diseases, Animal","Protozoan Infections, Animal",3,1
+"Protozoan Infections, Animal",Babesiosis,4,1
+"Protozoan Infections, Animal",Cryptosporidiosis,4,1
+"Protozoan Infections, Animal",Dourine,4,1
+"Protozoan Infections, Animal",Theileriasis,4,1
+"Protozoan Infections, Animal","Toxoplasmosis, Animal",4,1
+"Protozoan Infections, Animal","Trypanosomiasis, Bovine",4,1
+Parasitic Diseases,"Pregnancy Complications, Parasitic",2,1
+Parasitic Diseases,Protozoan Infections,2,1
+Protozoan Infections,Amebiasis,3,1
+Amebiasis,Acanthamoeba Keratitis,4,1
+Amebiasis,Blastocystis Infections,4,1
+Amebiasis,"Dysentery, Amebic",4,1
+Amebiasis,Entamoebiasis,4,1
+Amebiasis,"Liver Abscess, Amebic",4,1
+Protozoan Infections,Central Nervous System Protozoal Infections,3,1
+Protozoan Infections,Ciliophora Infections,3,1
+Ciliophora Infections,Balantidiasis,4,1
+Protozoan Infections,Coccidiosis,3,1
+Coccidiosis,Cryptosporidiosis,4,1
+Coccidiosis,Cyclosporiasis,4,1
+Coccidiosis,Isosporiasis,4,1
+Coccidiosis,Sarcocystosis,4,1
+Coccidiosis,Toxoplasmosis,4,1
+Protozoan Infections,Dientamoebiasis,3,1
+Protozoan Infections,Euglenozoa Infections,3,1
+Euglenozoa Infections,Leishmaniasis,4,1
+Euglenozoa Infections,Trypanosomiasis,4,1
+Protozoan Infections,Giardiasis,3,1
+Protozoan Infections,Malaria,3,1
+Malaria,"Malaria, Avian",4,1
+Malaria,"Malaria, Cerebral",4,1
+Malaria,"Malaria, Falciparum",4,1
+Malaria,"Malaria, Vivax",4,1
+Protozoan Infections,"Protozoan Infections, Animal",3,1
+"Protozoan Infections, Animal",Babesiosis,4,1
+"Protozoan Infections, Animal",Cryptosporidiosis,4,1
+"Protozoan Infections, Animal",Dourine,4,1
+"Protozoan Infections, Animal",Theileriasis,4,1
+"Protozoan Infections, Animal","Toxoplasmosis, Animal",4,1
+"Protozoan Infections, Animal","Trypanosomiasis, Bovine",4,1
+Protozoan Infections,Tick-Borne Diseases,3,1
+Tick-Borne Diseases,Babesiosis,4,1
+Tick-Borne Diseases,Theileriasis,4,1
+Protozoan Infections,Trichomonas Infections,3,1
+Trichomonas Infections,Trichomonas Vaginitis,4,1
+Parasitic Diseases,"Skin Diseases, Parasitic",2,1
+"Skin Diseases, Parasitic",Ectoparasitic Infestations,3,1
+Ectoparasitic Infestations,Flea Infestations,4,1
+Ectoparasitic Infestations,Lice Infestations,4,1
+Ectoparasitic Infestations,Mite Infestations,4,1
+Ectoparasitic Infestations,Myiasis,4,1
+Ectoparasitic Infestations,Tick Infestations,4,1
+"Skin Diseases, Parasitic",Larva Migrans,3,1
+"Skin Diseases, Parasitic",Leishmaniasis,3,1
+Leishmaniasis,"Leishmaniasis, Cutaneous",4,1
+"Skin Diseases, Parasitic",Onchocerciasis,3,1
+Parasitic Diseases,Zoonoses,2,1
+Zoonoses,Pythiosis,3,1
+Diseases,Neoplasms,1,3
+Neoplasms,Cysts,2,3
+Cysts,Arachnoid Cysts,3,3
+Cysts,Bone Cysts,3,3
+Bone Cysts,"Bone Cysts, Aneurysmal",4,3
+Bone Cysts,Jaw Cysts,4,3
+Cysts,Branchioma,3,3
+Cysts,Breast Cyst,3,3
+Cysts,Bronchogenic Cyst,3,3
+Cysts,Chalazion,3,3
+Cysts,Choledochal Cyst,3,3
+Cysts,Colloid Cysts,3,3
+Cysts,Dermoid Cyst,3,3
+Cysts,Epidermal Cyst,3,3
+Cysts,Esophageal Cyst,3,3
+Cysts,Follicular Cyst,3,3
+Cysts,Ganglion Cysts,3,3
+Cysts,Lymphocele,3,3
+Cysts,Mediastinal Cyst,3,3
+Cysts,Mesenteric Cyst,3,3
+Cysts,Mucocele,3,3
+Cysts,Ovarian Cysts,3,3
+Ovarian Cysts,Polycystic Ovary Syndrome,4,3
+Cysts,Pancreatic Cyst,3,3
+Pancreatic Cyst,Pancreatic Pseudocyst,4,3
+Cysts,Parovarian Cyst,3,3
+Cysts,Pilonidal Sinus,3,3
+Cysts,Ranula,3,3
+Cysts,Synovial Cyst,3,3
+Synovial Cyst,Popliteal Cyst,4,3
+Cysts,Tarlov Cysts,3,3
+Cysts,Thyroglossal Cyst,3,3
+Cysts,Urachal Cyst,3,3
+Neoplasms,Hamartoma,2,3
+Hamartoma,"Hamartoma Syndrome, Multiple",3,3
+"Hamartoma Syndrome, Multiple",Proteus Syndrome,4,3
+Hamartoma,Pallister-Hall Syndrome,3,3
+Hamartoma,Tuberous Sclerosis,3,3
+Neoplasms,Neoplasms by Histologic Type,2,3
+Neoplasms by Histologic Type,"Histiocytic Disorders, Malignant",3,3
+"Histiocytic Disorders, Malignant","Dendritic Cell Sarcoma, Follicular",4,3
+"Histiocytic Disorders, Malignant","Dendritic Cell Sarcoma, Interdigitating",4,3
+"Histiocytic Disorders, Malignant",Histiocytic Sarcoma,4,3
+"Histiocytic Disorders, Malignant",Langerhans Cell Sarcoma,4,3
+Neoplasms by Histologic Type,Leukemia,3,3
+Leukemia,Enzootic Bovine Leukosis,4,3
+Leukemia,"Leukemia, Experimental",4,3
+Leukemia,"Leukemia, Feline",4,3
+Leukemia,"Leukemia, Hairy Cell",4,3
+Leukemia,"Leukemia, Lymphoid",4,3
+Leukemia,"Leukemia, Mast-Cell",4,3
+Leukemia,"Leukemia, Myeloid",4,3
+Leukemia,"Leukemia, Plasma Cell",4,3
+Leukemia,"Leukemia, Radiation-Induced",4,3
+Neoplasms by Histologic Type,Lymphatic Vessel Tumors,3,3
+Lymphatic Vessel Tumors,Lymphangioma,4,3
+Lymphatic Vessel Tumors,Lymphangiomyoma,4,3
+Lymphatic Vessel Tumors,Lymphangiosarcoma,4,3
+Neoplasms by Histologic Type,Lymphoma,3,3
+Lymphoma,Composite Lymphoma,4,3
+Lymphoma,Hodgkin Disease,4,3
+Lymphoma,Immunoproliferative Small Intestinal Disease,4,3
+Lymphoma,Intraocular Lymphoma,4,3
+Lymphoma,"Lymphoma, Non-Hodgkin",4,3
+Neoplasms by Histologic Type,"Neoplasms, Complex and Mixed",3,3
+"Neoplasms, Complex and Mixed",Adenolymphoma,4,3
+"Neoplasms, Complex and Mixed","Adenoma, Pleomorphic",4,3
+"Neoplasms, Complex and Mixed",Adenomyoepithelioma,4,3
+"Neoplasms, Complex and Mixed",Adenomyoma,4,3
+"Neoplasms, Complex and Mixed",Adenosarcoma,4,3
+"Neoplasms, Complex and Mixed","Carcinoma, Adenosquamous",4,3
+"Neoplasms, Complex and Mixed",Carcinosarcoma,4,3
+"Neoplasms, Complex and Mixed",Composite Lymphoma,4,3
+"Neoplasms, Complex and Mixed",Hepatoblastoma,4,3
+"Neoplasms, Complex and Mixed",Mesenchymoma,4,3
+"Neoplasms, Complex and Mixed","Mixed Tumor, Malignant",4,3
+"Neoplasms, Complex and Mixed","Mixed Tumor, Mesodermal",4,3
+"Neoplasms, Complex and Mixed","Mixed Tumor, Mullerian",4,3
+"Neoplasms, Complex and Mixed",Myoepithelioma,4,3
+"Neoplasms, Complex and Mixed",Wilms Tumor,4,3
+"Neoplasms, Complex and Mixed","Nephroma, Mesoblastic",4,3
+"Neoplasms, Complex and Mixed",Pulmonary Blastoma,4,3
+"Neoplasms, Complex and Mixed",Rhabdoid Tumor,4,3
+"Neoplasms, Complex and Mixed","Sarcoma, Endometrial Stromal",4,3
+"Neoplasms, Complex and Mixed",Thymoma,4,3
+Neoplasms by Histologic Type,"Neoplasms, Connective and Soft Tissue",3,3
+"Neoplasms, Connective and Soft Tissue","Neoplasms, Adipose Tissue",4,3
+"Neoplasms, Connective and Soft Tissue","Neoplasms, Connective Tissue",4,3
+"Neoplasms, Connective and Soft Tissue","Neoplasms, Muscle Tissue",4,3
+"Neoplasms, Connective and Soft Tissue",Perivascular Epithelioid Cell Neoplasms,4,3
+"Neoplasms, Connective and Soft Tissue",Sarcoma,4,3
+Neoplasms by Histologic Type,"Neoplasms, Germ Cell and Embryonal",3,3
+"Neoplasms, Germ Cell and Embryonal","Carcinoma, Embryonal",4,3
+"Neoplasms, Germ Cell and Embryonal",Chordoma,4,3
+"Neoplasms, Germ Cell and Embryonal",Germinoma,4,3
+"Neoplasms, Germ Cell and Embryonal",Gonadoblastoma,4,3
+"Neoplasms, Germ Cell and Embryonal",Mesonephroma,4,3
+"Neoplasms, Germ Cell and Embryonal",Neuroectodermal Tumors,4,3
+"Neoplasms, Germ Cell and Embryonal",Teratocarcinoma,4,3
+"Neoplasms, Germ Cell and Embryonal",Teratoma,4,3
+"Neoplasms, Germ Cell and Embryonal",Trophoblastic Neoplasms,4,3
+Neoplasms by Histologic Type,"Neoplasms, Glandular and Epithelial",3,3
+"Neoplasms, Glandular and Epithelial",Adenoma,4,3
+"Neoplasms, Glandular and Epithelial",Carcinoma,4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Adnexal and Skin Appendage",4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Basal Cell",4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Cystic, Mucinous, and Serous",4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Ductal, Lobular, and Medullary",4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Fibroepithelial",4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Mesothelial",4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Neuroepithelial",4,3
+"Neoplasms, Glandular and Epithelial","Neoplasms, Squamous Cell",4,3
+Neoplasms by Histologic Type,"Neoplasms, Gonadal Tissue",3,3
+"Neoplasms, Gonadal Tissue",Gonadoblastoma,4,3
+"Neoplasms, Gonadal Tissue",Sex Cord-Gonadal Stromal Tumors,4,3
+Neoplasms by Histologic Type,"Neoplasms, Nerve Tissue",3,3
+"Neoplasms, Nerve Tissue",Meningioma,4,3
+"Neoplasms, Nerve Tissue",Nerve Sheath Neoplasms,4,3
+"Neoplasms, Nerve Tissue",Neuroectodermal Tumors,4,3
+Neoplasms by Histologic Type,"Neoplasms, Plasma Cell",3,3
+"Neoplasms, Plasma Cell",Immunoglobulin Light-chain Amyloidosis,4,3
+"Neoplasms, Plasma Cell",Multiple Myeloma,4,3
+"Neoplasms, Plasma Cell",Plasmacytoma,4,3
+"Neoplasms, Plasma Cell",Waldenstrom Macroglobulinemia,4,3
+Neoplasms by Histologic Type,"Neoplasms, Vascular Tissue",3,3
+"Neoplasms, Vascular Tissue",Angiofibroma,4,3
+"Neoplasms, Vascular Tissue",Angiokeratoma,4,3
+"Neoplasms, Vascular Tissue",Glomus Tumor,4,3
+"Neoplasms, Vascular Tissue",Hemangioma,4,3
+"Neoplasms, Vascular Tissue",Hemangiopericytoma,4,3
+"Neoplasms, Vascular Tissue",Hemangiosarcoma,4,3
+"Neoplasms, Vascular Tissue",Meningioma,4,3
+"Neoplasms, Vascular Tissue","Sarcoma, Kaposi",4,3
+Neoplasms by Histologic Type,Nevi and Melanomas,3,3
+Nevi and Melanomas,Melanoma,4,3
+Nevi and Melanomas,Nevus,4,3
+Neoplasms by Histologic Type,Odontogenic Tumors,3,3
+Odontogenic Tumors,Ameloblastoma,4,3
+Odontogenic Tumors,Cementoma,4,3
+Odontogenic Tumors,"Odontogenic Cyst, Calcifying",4,3
+Odontogenic Tumors,"Odontogenic Tumor, Squamous",4,3
+Odontogenic Tumors,Odontoma,4,3
+Neoplasms,Neoplasms by Site,2,3
+Neoplasms by Site,Abdominal Neoplasms,3,3
+Abdominal Neoplasms,Peritoneal Neoplasms,4,3
+Abdominal Neoplasms,Retroperitoneal Neoplasms,4,3
+Abdominal Neoplasms,Sister Mary Joseph's Nodule,4,3
+Neoplasms by Site,Anal Gland Neoplasms,3,3
+Neoplasms by Site,Bone Neoplasms,3,3
+Bone Neoplasms,Adamantinoma,4,3
+Bone Neoplasms,Femoral Neoplasms,4,3
+Bone Neoplasms,Skull Neoplasms,4,3
+Bone Neoplasms,Spinal Neoplasms,4,3
+Neoplasms by Site,Breast Neoplasms,3,3
+Breast Neoplasms,Breast Carcinoma In Situ,4,3
+Breast Neoplasms,"Breast Neoplasms, Male",4,3
+Breast Neoplasms,"Carcinoma, Ductal, Breast",4,3
+Breast Neoplasms,"Carcinoma, Lobular",4,3
+Breast Neoplasms,Hereditary Breast and Ovarian Cancer Syndrome,4,3
+Breast Neoplasms,Inflammatory Breast Neoplasms,4,3
+Breast Neoplasms,Triple Negative Breast Neoplasms,4,3
+Breast Neoplasms,Unilateral Breast Neoplasms,4,3
+Neoplasms by Site,Digestive System Neoplasms,3,3
+Digestive System Neoplasms,Biliary Tract Neoplasms,4,3
+Digestive System Neoplasms,Gastrointestinal Neoplasms,4,3
+Digestive System Neoplasms,Liver Neoplasms,4,3
+Digestive System Neoplasms,Pancreatic Neoplasms,4,3
+Digestive System Neoplasms,Peritoneal Neoplasms,4,3
+Neoplasms by Site,Endocrine Gland Neoplasms,3,3
+Endocrine Gland Neoplasms,Adrenal Gland Neoplasms,4,3
+Endocrine Gland Neoplasms,Multiple Endocrine Neoplasia,4,3
+Endocrine Gland Neoplasms,Ovarian Neoplasms,4,3
+Endocrine Gland Neoplasms,Pancreatic Neoplasms,4,3
+Endocrine Gland Neoplasms,Paraneoplastic Endocrine Syndromes,4,3
+Endocrine Gland Neoplasms,Parathyroid Neoplasms,4,3
+Endocrine Gland Neoplasms,Pituitary Neoplasms,4,3
+Endocrine Gland Neoplasms,Testicular Neoplasms,4,3
+Endocrine Gland Neoplasms,Thyroid Neoplasms,4,3
+Neoplasms by Site,Eye Neoplasms,3,3
+Eye Neoplasms,Conjunctival Neoplasms,4,3
+Eye Neoplasms,Intraocular Lymphoma,4,3
+Eye Neoplasms,Orbital Neoplasms,4,3
+Eye Neoplasms,"Paraneoplastic Syndromes, Ocular",4,3
+Eye Neoplasms,Retinal Neoplasms,4,3
+Eye Neoplasms,Uveal Neoplasms,4,3
+Neoplasms by Site,Head and Neck Neoplasms,3,3
+Head and Neck Neoplasms,Squamous Cell Carcinoma of Head and Neck,4,3
+Head and Neck Neoplasms,Esophageal Neoplasms,4,3
+Head and Neck Neoplasms,Facial Neoplasms,4,3
+Head and Neck Neoplasms,Mouth Neoplasms,4,3
+Head and Neck Neoplasms,Otorhinolaryngologic Neoplasms,4,3
+Head and Neck Neoplasms,Parathyroid Neoplasms,4,3
+Head and Neck Neoplasms,Thyroid Neoplasms,4,3
+Head and Neck Neoplasms,Tracheal Neoplasms,4,3
+Neoplasms by Site,Hematologic Neoplasms,3,3
+Hematologic Neoplasms,Bone Marrow Neoplasms,4,3
+Neoplasms by Site,"Mammary Neoplasms, Animal",3,3
+"Mammary Neoplasms, Animal","Mammary Neoplasms, Experimental",4,3
+Neoplasms by Site,Nervous System Neoplasms,3,3
+Nervous System Neoplasms,Central Nervous System Neoplasms,4,3
+Nervous System Neoplasms,Cranial Nerve Neoplasms,4,3
+Nervous System Neoplasms,"Paraneoplastic Syndromes, Nervous System",4,3
+Nervous System Neoplasms,Peripheral Nervous System Neoplasms,4,3
+Neoplasms by Site,Pelvic Neoplasms,3,3
+Neoplasms by Site,Skin Neoplasms,3,3
+Skin Neoplasms,Acanthoma,4,3
+Skin Neoplasms,Sebaceous Gland Neoplasms,4,3
+Skin Neoplasms,Sweat Gland Neoplasms,4,3
+Neoplasms by Site,Soft Tissue Neoplasms,3,3
+Soft Tissue Neoplasms,Muscle Neoplasms,4,3
+Soft Tissue Neoplasms,Vascular Neoplasms,4,3
+Neoplasms by Site,Splenic Neoplasms,3,3
+Neoplasms by Site,Thoracic Neoplasms,3,3
+Thoracic Neoplasms,Heart Neoplasms,4,3
+Thoracic Neoplasms,Mediastinal Neoplasms,4,3
+Thoracic Neoplasms,Respiratory Tract Neoplasms,4,3
+Thoracic Neoplasms,Thymus Neoplasms,4,3
+Neoplasms by Site,Urogenital Neoplasms,3,3
+Urogenital Neoplasms,"Genital Neoplasms, Female",4,3
+Urogenital Neoplasms,"Genital Neoplasms, Male",4,3
+Urogenital Neoplasms,Urologic Neoplasms,4,3
+Urogenital Neoplasms,"Venereal Tumors, Veterinary",4,3
+Neoplasms,"Neoplasms, Experimental",2,3
+"Neoplasms, Experimental","Carcinoma 256, Walker",3,3
+"Neoplasms, Experimental","Carcinoma, Brown-Pearce",3,3
+"Neoplasms, Experimental","Carcinoma, Ehrlich Tumor",3,3
+"Neoplasms, Experimental","Carcinoma, Krebs 2",3,3
+"Neoplasms, Experimental","Carcinoma, Lewis Lung",3,3
+"Neoplasms, Experimental","Leukemia, Experimental",3,3
+"Leukemia, Experimental",Avian Leukosis,4,3
+"Leukemia, Experimental",Leukemia L1210,4,3
+"Leukemia, Experimental",Leukemia L5178,4,3
+"Leukemia, Experimental",Leukemia P388,4,3
+"Neoplasms, Experimental","Liver Neoplasms, Experimental",3,3
+"Neoplasms, Experimental","Mammary Neoplasms, Experimental",3,3
+"Neoplasms, Experimental","Melanoma, Experimental",3,3
+"Neoplasms, Experimental","Sarcoma, Experimental",3,3
+"Sarcoma, Experimental",Sarcoma 37,4,3
+"Sarcoma, Experimental",Sarcoma 180,4,3
+"Sarcoma, Experimental","Sarcoma, Avian",4,3
+"Sarcoma, Experimental","Sarcoma, Yoshida",4,3
+Neoplasms,"Neoplasms, Hormone-Dependent",2,3
+Neoplasms,"Neoplasms, Multiple Primary",2,3
+"Neoplasms, Multiple Primary","Hamartoma Syndrome, Multiple",3,3
+"Hamartoma Syndrome, Multiple",Proteus Syndrome,4,3
+"Neoplasms, Multiple Primary",Multiple Endocrine Neoplasia,3,3
+Multiple Endocrine Neoplasia,Multiple Endocrine Neoplasia Type 1,4,3
+Multiple Endocrine Neoplasia,Multiple Endocrine Neoplasia Type 2a,4,3
+Multiple Endocrine Neoplasia,Multiple Endocrine Neoplasia Type 2b,4,3
+"Neoplasms, Multiple Primary",Tuberous Sclerosis,3,3
+Neoplasms,"Neoplasms, Post-Traumatic",2,3
+Neoplasms,"Neoplasms, Radiation-Induced",2,3
+"Neoplasms, Radiation-Induced","Leukemia, Radiation-Induced",3,3
+Neoplasms,"Neoplasms, Second Primary",2,3
+Neoplasms,Neoplastic Processes,2,3
+Neoplastic Processes,Anaplasia,3,3
+Neoplastic Processes,Carcinogenesis,3,3
+Carcinogenesis,"Cell Transformation, Neoplastic",4,3
+Carcinogenesis,Cocarcinogenesis,4,3
+Neoplastic Processes,Neoplasm Invasiveness,3,3
+Neoplasm Invasiveness,Leukemic Infiltration,4,3
+Neoplastic Processes,Neoplasm Metastasis,3,3
+Neoplasm Metastasis,Lymphatic Metastasis,4,3
+Neoplasm Metastasis,Neoplasm Micrometastasis,4,3
+Neoplasm Metastasis,Neoplasm Seeding,4,3
+Neoplasm Metastasis,"Neoplasms, Unknown Primary",4,3
+Neoplasm Metastasis,"Neoplastic Cells, Circulating",4,3
+Neoplastic Processes,"Neoplasm Recurrence, Local",3,3
+Neoplastic Processes,"Neoplasm Regression, Spontaneous",3,3
+Neoplastic Processes,"Neoplasm, Residual",3,3
+Neoplastic Processes,Oncogene Addiction,3,3
+Neoplasms,"Neoplastic Syndromes, Hereditary",2,3
+"Neoplastic Syndromes, Hereditary",Adenomatous Polyposis Coli,3,3
+Adenomatous Polyposis Coli,Gardner Syndrome,4,3
+"Neoplastic Syndromes, Hereditary",Basal Cell Nevus Syndrome,3,3
+"Neoplastic Syndromes, Hereditary",Birt-Hogg-Dube Syndrome,3,3
+"Neoplastic Syndromes, Hereditary","Colorectal Neoplasms, Hereditary Nonpolyposis",3,3
+"Colorectal Neoplasms, Hereditary Nonpolyposis",Lynch Syndrome II,4,3
+"Neoplastic Syndromes, Hereditary",Dysplastic Nevus Syndrome,3,3
+"Neoplastic Syndromes, Hereditary","Exostoses, Multiple Hereditary",3,3
+"Neoplastic Syndromes, Hereditary","Hamartoma Syndrome, Multiple",3,3
+"Neoplastic Syndromes, Hereditary",Hereditary Breast and Ovarian Cancer Syndrome,3,3
+"Neoplastic Syndromes, Hereditary",Li-Fraumeni Syndrome,3,3
+"Neoplastic Syndromes, Hereditary",Multiple Endocrine Neoplasia,3,3
+Multiple Endocrine Neoplasia,Multiple Endocrine Neoplasia Type 1,4,3
+Multiple Endocrine Neoplasia,Multiple Endocrine Neoplasia Type 2a,4,3
+Multiple Endocrine Neoplasia,Multiple Endocrine Neoplasia Type 2b,4,3
+"Neoplastic Syndromes, Hereditary",Neurofibromatoses,3,3
+Neurofibromatoses,Neurofibromatosis 1,4,3
+Neurofibromatoses,Neurofibromatosis 2,4,3
+"Neoplastic Syndromes, Hereditary",Peutz-Jeghers Syndrome,3,3
+"Neoplastic Syndromes, Hereditary",Tuberous Sclerosis,3,3
+"Neoplastic Syndromes, Hereditary",Wilms Tumor,3,3
+Wilms Tumor,Denys-Drash Syndrome,4,3
+Wilms Tumor,WAGR Syndrome,4,3
+Neoplasms,Paraneoplastic Syndromes,2,3
+Paraneoplastic Syndromes,Paraneoplastic Endocrine Syndromes,3,3
+Paraneoplastic Endocrine Syndromes,"ACTH Syndrome, Ectopic",4,3
+Paraneoplastic Endocrine Syndromes,Zollinger-Ellison Syndrome,4,3
+Paraneoplastic Syndromes,"Paraneoplastic Syndromes, Nervous System",3,3
+"Paraneoplastic Syndromes, Nervous System",Anti-N-Methyl-D-Aspartate Receptor Encephalitis,4,3
+"Paraneoplastic Syndromes, Nervous System",Lambert-Eaton Myasthenic Syndrome,4,3
+"Paraneoplastic Syndromes, Nervous System",Limbic Encephalitis,4,3
+"Paraneoplastic Syndromes, Nervous System","Myelitis, Transverse",4,3
+"Paraneoplastic Syndromes, Nervous System",Opsoclonus-Myoclonus Syndrome,4,3
+"Paraneoplastic Syndromes, Nervous System",Paraneoplastic Cerebellar Degeneration,4,3
+"Paraneoplastic Syndromes, Nervous System",Paraneoplastic Polyneuropathy,4,3
+Paraneoplastic Syndromes,"Paraneoplastic Syndromes, Ocular",3,3
+Neoplasms,Precancerous Conditions,2,3
+Precancerous Conditions,Aberrant Crypt Foci,3,3
+Precancerous Conditions,Barrett Esophagus,3,3
+Precancerous Conditions,Erythroplasia,3,3
+Precancerous Conditions,"Keratosis, Actinic",3,3
+Precancerous Conditions,Leukoplakia,3,3
+Leukoplakia,"Leukoplakia, Oral",4,3
+Precancerous Conditions,Lymphomatoid Granulomatosis,3,3
+Precancerous Conditions,Preleukemia,3,3
+Precancerous Conditions,Smoldering Multiple Myeloma,3,3
+Precancerous Conditions,Uterine Cervical Dysplasia,3,3
+Uterine Cervical Dysplasia,Atypical Squamous Cells of the Cervix,4,3
+Uterine Cervical Dysplasia,Squamous Intraepithelial Lesions of the Cervix,4,3
+Precancerous Conditions,Xeroderma Pigmentosum,3,3
+Neoplasms,"Pregnancy Complications, Neoplastic",2,3
+"Pregnancy Complications, Neoplastic",Trophoblastic Neoplasms,3,3
+Trophoblastic Neoplasms,Choriocarcinoma,4,3
+Trophoblastic Neoplasms,Gestational Trophoblastic Disease,4,3
+Diseases,Musculoskeletal Diseases,1,4
+Musculoskeletal Diseases,Bone Diseases,2,4
+Bone Diseases,Bone Cysts,3,4
+Bone Cysts,"Bone Cysts, Aneurysmal",4,4
+Bone Diseases,"Bone Diseases, Developmental",3,4
+"Bone Diseases, Developmental",Acro-Osteolysis,4,4
+"Bone Diseases, Developmental",Basal Cell Nevus Syndrome,4,4
+"Bone Diseases, Developmental",Dwarfism,4,4
+"Bone Diseases, Developmental",Dysostoses,4,4
+"Bone Diseases, Developmental",Funnel Chest,4,4
+"Bone Diseases, Developmental",Gigantism,4,4
+"Bone Diseases, Developmental",Leg Length Inequality,4,4
+"Bone Diseases, Developmental",Marfan Syndrome,4,4
+"Bone Diseases, Developmental",Osteochondrodysplasias,4,4
+"Bone Diseases, Developmental","Osteolysis, Essential",4,4
+"Bone Diseases, Developmental",Pectus Carinatum,4,4
+"Bone Diseases, Developmental",Platybasia,4,4
+"Bone Diseases, Developmental",Proteus Syndrome,4,4
+Bone Diseases,"Bone Diseases, Endocrine",3,4
+"Bone Diseases, Endocrine",Acromegaly,4,4
+"Bone Diseases, Endocrine",Congenital Hypothyroidism,4,4
+"Bone Diseases, Endocrine","Dwarfism, Pituitary",4,4
+"Bone Diseases, Endocrine",Gigantism,4,4
+"Bone Diseases, Endocrine",Osteitis Fibrosa Cystica,4,4
+Bone Diseases,"Bone Diseases, Infectious",3,4
+"Bone Diseases, Infectious",Osteomyelitis,4,4
+"Bone Diseases, Infectious",Periostitis,4,4
+"Bone Diseases, Infectious",Spondylitis,4,4
+"Bone Diseases, Infectious","Tuberculosis, Osteoarticular",4,4
+Bone Diseases,"Bone Diseases, Metabolic",3,4
+"Bone Diseases, Metabolic","Bone Demineralization, Pathologic",4,4
+"Bone Diseases, Metabolic",Mucolipidoses,4,4
+"Bone Diseases, Metabolic",Osteoporosis,4,4
+"Bone Diseases, Metabolic",Pseudohypoparathyroidism,4,4
+"Bone Diseases, Metabolic",Rickets,4,4
+Bone Diseases,Bone Malalignment,3,4
+Bone Malalignment,Bone Anteversion,4,4
+Bone Malalignment,Bone Retroversion,4,4
+Bone Diseases,Bone Neoplasms,3,4
+Bone Neoplasms,Adamantinoma,4,4
+Bone Neoplasms,Femoral Neoplasms,4,4
+Bone Neoplasms,Skull Neoplasms,4,4
+Bone Neoplasms,Spinal Neoplasms,4,4
+Bone Diseases,Bone Resorption,3,4
+Bone Resorption,Ainhum,4,4
+Bone Resorption,Alveolar Bone Loss,4,4
+Bone Resorption,Osteolysis,4,4
+Bone Diseases,Coxa Magna,3,4
+Bone Diseases,Coxa Valga,3,4
+Bone Diseases,Eosinophilic Granuloma,3,4
+Bone Diseases,"Epiphyses, Slipped",3,4
+"Epiphyses, Slipped",Slipped Capital Femoral Epiphyses,4,4
+Bone Diseases,Genu Valgum,3,4
+Bone Diseases,Genu Varum,3,4
+Bone Diseases,Hyperostosis,3,4
+Hyperostosis,Exostoses,4,4
+Hyperostosis,"Hyperostosis, Cortical, Congenital",4,4
+Hyperostosis,"Hyperostosis, Diffuse Idiopathic Skeletal",4,4
+Hyperostosis,Hyperostosis Frontalis Interna,4,4
+Hyperostosis,"Hyperostosis, Sternocostoclavicular",4,4
+Bone Diseases,Osteitis,3,4
+Bone Diseases,Osteitis Deformans,3,4
+Bone Diseases,"Osteoarthropathy, Primary Hypertrophic",3,4
+Bone Diseases,"Osteoarthropathy, Secondary Hypertrophic",3,4
+Bone Diseases,Osteochondritis,3,4
+Osteochondritis,Osteochondritis Dissecans,4,4
+Bone Diseases,Osteochondrosis,3,4
+Osteochondrosis,Spinal Osteochondrosis,4,4
+Bone Diseases,Osteonecrosis,3,4
+Osteonecrosis,Bisphosphonate-Associated Osteonecrosis of the Jaw,4,4
+Osteonecrosis,Femur Head Necrosis,4,4
+Bone Diseases,Spinal Diseases,3,4
+Spinal Diseases,Intervertebral Disc Degeneration,4,4
+Spinal Diseases,Intervertebral Disc Displacement,4,4
+Spinal Diseases,Ossification of Posterior Longitudinal Ligament,4,4
+Spinal Diseases,Platybasia,4,4
+Spinal Diseases,Posterior Cervical Sympathetic Syndrome,4,4
+Spinal Diseases,Spinal Curvatures,4,4
+Spinal Diseases,Spinal Neoplasms,4,4
+Spinal Diseases,Spinal Osteochondrosis,4,4
+Spinal Diseases,Spinal Osteophytosis,4,4
+Spinal Diseases,Spinal Stenosis,4,4
+Spinal Diseases,Spondylitis,4,4
+Spinal Diseases,Spondylosis,4,4
+Musculoskeletal Diseases,Cartilage Diseases,2,4
+Cartilage Diseases,Chondromalacia Patellae,3,4
+Cartilage Diseases,Laryngomalacia,3,4
+Cartilage Diseases,Osteochondritis,3,4
+Cartilage Diseases,Pectus Carinatum,3,4
+Cartilage Diseases,"Polychondritis, Relapsing",3,4
+Cartilage Diseases,Tietze's Syndrome,3,4
+Cartilage Diseases,Tracheobronchomalacia,3,4
+Tracheobronchomalacia,Bronchomalacia,4,4
+Tracheobronchomalacia,Tracheomalacia,4,4
+Musculoskeletal Diseases,Fasciitis,2,4
+Fasciitis,"Fasciitis, Necrotizing",3,4
+Fasciitis,"Fasciitis, Plantar",3,4
+Musculoskeletal Diseases,Foot Deformities,2,4
+Foot Deformities,"Foot Deformities, Acquired",3,4
+"Foot Deformities, Acquired",Bunion,4,4
+"Foot Deformities, Acquired",Hallux Limitus,4,4
+"Foot Deformities, Acquired",Hallux Rigidus,4,4
+"Foot Deformities, Acquired",Talipes,4,4
+Foot Deformities,"Foot Deformities, Congenital",3,4
+"Foot Deformities, Congenital",Talipes,4,4
+"Foot Deformities, Congenital",Tarsal Coalition,4,4
+Foot Deformities,Hallux Valgus,3,4
+Foot Deformities,Hallux Varus,3,4
+Foot Deformities,Hammer Toe Syndrome,3,4
+Foot Deformities,Metatarsal Valgus,3,4
+Foot Deformities,Metatarsus Varus,3,4
+Musculoskeletal Diseases,Foot Diseases,2,4
+Foot Diseases,"Fasciitis, Plantar",3,4
+Foot Diseases,"Fibromatosis, Plantar",3,4
+Foot Diseases,Heel Spur,3,4
+Foot Diseases,Metatarsalgia,3,4
+Metatarsalgia,Morton Neuroma,4,4
+Foot Diseases,Posterior Tibial Tendon Dysfunction,3,4
+Musculoskeletal Diseases,Hand Deformities,2,4
+Hand Deformities,"Hand Deformities, Acquired",3,4
+Hand Deformities,"Hand Deformities, Congenital",3,4
+Musculoskeletal Diseases,Jaw Diseases,2,4
+Jaw Diseases,Bisphosphonate-Associated Osteonecrosis of the Jaw,3,4
+Jaw Diseases,Cherubism,3,4
+Jaw Diseases,"Granuloma, Giant Cell",3,4
+Jaw Diseases,Jaw Abnormalities,3,4
+Jaw Abnormalities,Cleft Palate,4,4
+Jaw Abnormalities,Micrognathism,4,4
+Jaw Abnormalities,Pierre Robin Syndrome,4,4
+Jaw Abnormalities,Prognathism,4,4
+Jaw Abnormalities,Retrognathia,4,4
+Jaw Diseases,Jaw Cysts,3,4
+Jaw Cysts,Nonodontogenic Cysts,4,4
+Jaw Cysts,Odontogenic Cysts,4,4
+Jaw Diseases,"Jaw, Edentulous",3,4
+"Jaw, Edentulous","Jaw, Edentulous, Partially",4,4
+Jaw Diseases,Jaw Neoplasms,3,4
+Jaw Neoplasms,Mandibular Neoplasms,4,4
+Jaw Neoplasms,Maxillary Neoplasms,4,4
+Jaw Neoplasms,Palatal Neoplasms,4,4
+Jaw Diseases,Mandibular Diseases,3,4
+Mandibular Diseases,Craniomandibular Disorders,4,4
+Mandibular Diseases,Mandibular Neoplasms,4,4
+Mandibular Diseases,Prognathism,4,4
+Jaw Diseases,Maxillary Diseases,3,4
+Maxillary Diseases,Maxillary Neoplasms,4,4
+Musculoskeletal Diseases,Joint Diseases,2,4
+Joint Diseases,Ankylosis,3,4
+Ankylosis,"Spondylitis, Ankylosing",4,4
+Joint Diseases,Arthralgia,3,4
+Arthralgia,Shoulder Pain,4,4
+Joint Diseases,Arthritis,3,4
+Arthritis,"Arthritis, Experimental",4,4
+Arthritis,"Arthritis, Infectious",4,4
+Arthritis,"Arthritis, Juvenile",4,4
+Arthritis,"Arthritis, Psoriatic",4,4
+Arthritis,"Arthritis, Rheumatoid",4,4
+Arthritis,Chondrocalcinosis,4,4
+Arthritis,Gout,4,4
+Arthritis,Osteoarthritis,4,4
+Arthritis,Periarthritis,4,4
+Arthritis,Rheumatic Fever,4,4
+Arthritis,Sacroiliitis,4,4
+Arthritis,Spondylarthritis,4,4
+Joint Diseases,Arthrogryposis,3,4
+Joint Diseases,"Arthropathy, Neurogenic",3,4
+Joint Diseases,Bursitis,3,4
+Bursitis,Periarthritis,4,4
+Joint Diseases,"Chondromatosis, Synovial",3,4
+Joint Diseases,Contracture,3,4
+Contracture,Hip Contracture,4,4
+Contracture,Ischemic Contracture,4,4
+Joint Diseases,Crystal Arthropathies,3,4
+Crystal Arthropathies,Chondrocalcinosis,4,4
+Crystal Arthropathies,Rotator Cuff Tear Arthropathy,4,4
+Crystal Arthropathies,Gout,4,4
+Joint Diseases,Femoracetabular Impingement,3,4
+Joint Diseases,Hallux Limitus,3,4
+Joint Diseases,Hallux Rigidus,3,4
+Joint Diseases,Hemarthrosis,3,4
+Joint Diseases,Hydrarthrosis,3,4
+Joint Diseases,"Joint Deformities, Acquired",3,4
+Joint Diseases,Joint Dislocations,3,4
+Joint Dislocations,"Diastasis, Bone",4,4
+Joint Dislocations,"Diastasis, Muscle",4,4
+Joint Dislocations,Fracture Dislocation,4,4
+Joint Dislocations,Hip Dislocation,4,4
+Joint Dislocations,Knee Dislocation,4,4
+Joint Dislocations,Patellar Dislocation,4,4
+Joint Dislocations,Shoulder Dislocation,4,4
+Joint Diseases,Joint Instability,3,4
+Joint Diseases,Joint Loose Bodies,3,4
+Joint Diseases,Metatarsalgia,3,4
+Metatarsalgia,Morton Neuroma,4,4
+Joint Diseases,Nail-Patella Syndrome,3,4
+Joint Diseases,"Osteoarthropathy, Primary Hypertrophic",3,4
+Joint Diseases,"Osteoarthropathy, Secondary Hypertrophic",3,4
+Joint Diseases,Patellofemoral Pain Syndrome,3,4
+Joint Diseases,Shoulder Impingement Syndrome,3,4
+Joint Diseases,Synovitis,3,4
+Synovitis,Giant Cell Tumor of Tendon Sheath,4,4
+Joint Diseases,Temporomandibular Joint Disorders,3,4
+Temporomandibular Joint Disorders,Temporomandibular Joint Dysfunction Syndrome,4,4
+Musculoskeletal Diseases,Muscular Diseases,2,4
+Muscular Diseases,Arthrogryposis,3,4
+Muscular Diseases,Compartment Syndromes,3,4
+Compartment Syndromes,Anterior Compartment Syndrome,4,4
+Compartment Syndromes,Intra-Abdominal Hypertension,4,4
+Compartment Syndromes,Ischemic Contracture,4,4
+Muscular Diseases,Contracture,3,4
+Contracture,Dupuytren Contracture,4,4
+Contracture,"Fibromatosis, Plantar",4,4
+Contracture,Hip Contracture,4,4
+Contracture,Ischemic Contracture,4,4
+Muscular Diseases,Craniomandibular Disorders,3,4
+Craniomandibular Disorders,Temporomandibular Joint Disorders,4,4
+Muscular Diseases,Eosinophilia-Myalgia Syndrome,3,4
+Muscular Diseases,"Fatigue Syndrome, Chronic",3,4
+Muscular Diseases,Fibromyalgia,3,4
+Muscular Diseases,Isaacs Syndrome,3,4
+Muscular Diseases,Medial Tibial Stress Syndrome,3,4
+Muscular Diseases,Mitochondrial Myopathies,3,4
+Mitochondrial Myopathies,Mitochondrial Encephalomyopathies,4,4
+Mitochondrial Myopathies,"Ophthalmoplegia, Chronic Progressive External",4,4
+Muscular Diseases,Muscle Cramp,3,4
+Muscular Diseases,Muscle Neoplasms,3,4
+Muscular Diseases,Muscle Rigidity,3,4
+Muscular Diseases,Muscle Spasticity,3,4
+Muscular Diseases,Muscle Weakness,3,4
+Muscular Diseases,"Muscular Disorders, Atrophic",3,4
+"Muscular Disorders, Atrophic",Muscular Dystrophies,4,4
+"Muscular Disorders, Atrophic",Postpoliomyelitis Syndrome,4,4
+Muscular Diseases,Musculoskeletal Pain,3,4
+Muscular Diseases,Myalgia,3,4
+Muscular Diseases,Myofascial Pain Syndromes,3,4
+Myofascial Pain Syndromes,Temporomandibular Joint Dysfunction Syndrome,4,4
+Muscular Diseases,"Myopathies, Structural, Congenital",3,4
+"Myopathies, Structural, Congenital","Myopathies, Nemaline",4,4
+"Myopathies, Structural, Congenital","Myopathy, Central Core",4,4
+Muscular Diseases,Myositis,3,4
+Myositis,"Myositis, Inclusion Body",4,4
+Myositis,Myositis Ossificans,4,4
+Myositis,Orbital Myositis,4,4
+Myositis,Polymyositis,4,4
+Myositis,Pyomyositis,4,4
+Muscular Diseases,Myotonic Disorders,3,4
+Myotonic Disorders,Myotonia Congenita,4,4
+Myotonic Disorders,Myotonic Dystrophy,4,4
+Muscular Diseases,"Paralyses, Familial Periodic",3,4
+"Paralyses, Familial Periodic",Hypokalemic Periodic Paralysis,4,4
+"Paralyses, Familial Periodic","Paralysis, Hyperkalemic Periodic",4,4
+Muscular Diseases,Polymyalgia Rheumatica,3,4
+Muscular Diseases,Rhabdomyolysis,3,4
+Rhabdomyolysis,Myoglobinuria,4,4
+Muscular Diseases,Tendinopathy,3,4
+Tendinopathy,Elbow Tendinopathy,4,4
+Tendinopathy,Enthesopathy,4,4
+Tendinopathy,Giant Cell Tumor of Tendon Sheath,4,4
+Tendinopathy,Tendon Entrapment,4,4
+Tendinopathy,Tenosynovitis,4,4
+Musculoskeletal Diseases,Musculoskeletal Abnormalities,2,4
+Musculoskeletal Abnormalities,Arthrogryposis,3,4
+Musculoskeletal Abnormalities,Campomelic Dysplasia,3,4
+Musculoskeletal Abnormalities,Craniofacial Abnormalities,3,4
+Craniofacial Abnormalities,22q11 Deletion Syndrome,4,4
+Craniofacial Abnormalities,Cleidocranial Dysplasia,4,4
+Craniofacial Abnormalities,Costello Syndrome,4,4
+Craniofacial Abnormalities,Craniofacial Dysostosis,4,4
+Craniofacial Abnormalities,Craniosynostoses,4,4
+Craniofacial Abnormalities,Donohue Syndrome,4,4
+Craniofacial Abnormalities,Holoprosencephaly,4,4
+Craniofacial Abnormalities,LEOPARD Syndrome,4,4
+Craniofacial Abnormalities,Loeys-Dietz Syndrome,4,4
+Craniofacial Abnormalities,Megalencephaly,4,4
+Craniofacial Abnormalities,Maxillofacial Abnormalities,4,4
+Craniofacial Abnormalities,Microcephaly,4,4
+Craniofacial Abnormalities,Noonan Syndrome,4,4
+Craniofacial Abnormalities,Orofaciodigital Syndromes,4,4
+Craniofacial Abnormalities,Plagiocephaly,4,4
+Craniofacial Abnormalities,Platybasia,4,4
+Craniofacial Abnormalities,Rubinstein-Taybi Syndrome,4,4
+Craniofacial Abnormalities,Silver-Russell Syndrome,4,4
+Musculoskeletal Abnormalities,Funnel Chest,3,4
+Musculoskeletal Abnormalities,Gastroschisis,3,4
+Musculoskeletal Abnormalities,"Hip Dislocation, Congenital",3,4
+Musculoskeletal Abnormalities,Klippel-Feil Syndrome,3,4
+Musculoskeletal Abnormalities,"Limb Deformities, Congenital",3,4
+"Limb Deformities, Congenital",Arachnodactyly,4,4
+"Limb Deformities, Congenital",Brachydactyly,4,4
+"Limb Deformities, Congenital",Ectromelia,4,4
+"Limb Deformities, Congenital","Lower Extremity Deformities, Congenital",4,4
+"Limb Deformities, Congenital",Polydactyly,4,4
+"Limb Deformities, Congenital",Proteus Syndrome,4,4
+"Limb Deformities, Congenital",Syndactyly,4,4
+"Limb Deformities, Congenital",Thanatophoric Dysplasia,4,4
+"Limb Deformities, Congenital","Upper Extremity Deformities, Congenital",4,4
+Musculoskeletal Abnormalities,Pectus Carinatum,3,4
+Musculoskeletal Abnormalities,Synostosis,3,4
+Synostosis,Antley-Bixler Syndrome Phenotype,4,4
+Synostosis,Craniosynostoses,4,4
+Synostosis,Syndactyly,4,4
+Synostosis,Tarsal Coalition,4,4
+Musculoskeletal Diseases,Rheumatic Diseases,2,4
+Rheumatic Diseases,"Arthritis, Juvenile",3,4
+Rheumatic Diseases,"Arthritis, Rheumatoid",3,4
+"Arthritis, Rheumatoid",Caplan Syndrome,4,4
+"Arthritis, Rheumatoid",Felty Syndrome,4,4
+"Arthritis, Rheumatoid",Rheumatoid Nodule,4,4
+"Arthritis, Rheumatoid",Rheumatoid Vasculitis,4,4
+"Arthritis, Rheumatoid",Sjogren's Syndrome,4,4
+"Arthritis, Rheumatoid","Still's Disease, Adult-Onset",4,4
+Rheumatic Diseases,Fibromyalgia,3,4
+Rheumatic Diseases,Gout,3,4
+Gout,"Arthritis, Gouty",4,4
+Rheumatic Diseases,"Hyperostosis, Sternocostoclavicular",3,4
+Rheumatic Diseases,Osteoarthritis,3,4
+Osteoarthritis,"Osteoarthritis, Hip",4,4
+Osteoarthritis,"Osteoarthritis, Knee",4,4
+Osteoarthritis,"Osteoarthritis, Spine",4,4
+Rheumatic Diseases,Polymyalgia Rheumatica,3,4
+Rheumatic Diseases,Rheumatic Fever,3,4
+Rheumatic Fever,Rheumatic Nodule,4,4
+Rheumatic Fever,Wissler's Syndrome,4,4
+Diseases,Digestive System Diseases,1,5
+Digestive System Diseases,Biliary Tract Diseases,2,5
+Biliary Tract Diseases,Bile Duct Diseases,3,5
+Bile Duct Diseases,Bile Duct Neoplasms,4,5
+Bile Duct Diseases,Biliary Atresia,4,5
+Bile Duct Diseases,Choledochal Cyst,4,5
+Bile Duct Diseases,Cholestasis,4,5
+Bile Duct Diseases,Cholangitis,4,5
+Bile Duct Diseases,Common Bile Duct Diseases,4,5
+Biliary Tract Diseases,Bile Reflux,3,5
+Biliary Tract Diseases,Biliary Tract Neoplasms,3,5
+Biliary Tract Neoplasms,Bile Duct Neoplasms,4,5
+Biliary Tract Neoplasms,Gallbladder Neoplasms,4,5
+Biliary Tract Diseases,Cholelithiasis,3,5
+Cholelithiasis,Cholecystolithiasis,4,5
+Cholelithiasis,Choledocholithiasis,4,5
+Cholelithiasis,Gallstones,4,5
+Biliary Tract Diseases,Gallbladder Diseases,3,5
+Gallbladder Diseases,Cholecystitis,4,5
+Gallbladder Diseases,Cholecystolithiasis,4,5
+Gallbladder Diseases,Gallbladder Neoplasms,4,5
+Biliary Tract Diseases,Postcholecystectomy Syndrome,3,5
+Digestive System Diseases,Digestive System Abnormalities,2,5
+Digestive System Abnormalities,Anorectal Malformations,3,5
+Digestive System Abnormalities,"Anus, Imperforate",3,5
+Digestive System Abnormalities,Biliary Atresia,3,5
+Digestive System Abnormalities,Choledochal Cyst,3,5
+Choledochal Cyst,Caroli Disease,4,5
+Digestive System Abnormalities,Diaphragmatic Eventration,3,5
+Digestive System Abnormalities,Esophageal Atresia,3,5
+Digestive System Abnormalities,Hirschsprung Disease,3,5
+Digestive System Abnormalities,Intestinal Atresia,3,5
+Digestive System Abnormalities,Meckel Diverticulum,3,5
+Digestive System Abnormalities,Median Arcuate Ligament Syndrome,3,5
+Digestive System Diseases,Digestive System Fistula,2,5
+Digestive System Fistula,Biliary Fistula,3,5
+Digestive System Fistula,Esophageal Fistula,3,5
+Esophageal Fistula,Tracheoesophageal Fistula,4,5
+Digestive System Fistula,Gastric Fistula,3,5
+Digestive System Fistula,Intestinal Fistula,3,5
+Intestinal Fistula,Rectal Fistula,4,5
+Digestive System Fistula,Pancreatic Fistula,3,5
+Digestive System Diseases,Digestive System Neoplasms,2,5
+Digestive System Neoplasms,Biliary Tract Neoplasms,3,5
+Biliary Tract Neoplasms,Bile Duct Neoplasms,4,5
+Biliary Tract Neoplasms,Gallbladder Neoplasms,4,5
+Digestive System Neoplasms,Gastrointestinal Neoplasms,3,5
+Gastrointestinal Neoplasms,Esophageal Neoplasms,4,5
+Gastrointestinal Neoplasms,Gastrointestinal Stromal Tumors,4,5
+Gastrointestinal Neoplasms,Intestinal Neoplasms,4,5
+Gastrointestinal Neoplasms,Stomach Neoplasms,4,5
+Gastrointestinal Neoplasms,Zollinger-Ellison Syndrome,4,5
+Digestive System Neoplasms,Liver Neoplasms,3,5
+Liver Neoplasms,"Adenoma, Liver Cell",4,5
+Liver Neoplasms,"Carcinoma, Hepatocellular",4,5
+Liver Neoplasms,"Liver Neoplasms, Experimental",4,5
+Digestive System Neoplasms,Pancreatic Neoplasms,3,5
+Pancreatic Neoplasms,"Adenoma, Islet Cell",4,5
+Pancreatic Neoplasms,"Carcinoma, Islet Cell",4,5
+Pancreatic Neoplasms,"Carcinoma, Pancreatic Ductal",4,5
+Pancreatic Neoplasms,Pancreatic Intraductal Neoplasms,4,5
+Digestive System Neoplasms,Peritoneal Neoplasms,3,5
+Digestive System Diseases,Gastrointestinal Diseases,2,5
+Gastrointestinal Diseases,Esophageal Diseases,3,5
+Esophageal Diseases,Barrett Esophagus,4,5
+Esophageal Diseases,Deglutition Disorders,4,5
+Esophageal Diseases,"Diverticulosis, Esophageal",4,5
+Esophageal Diseases,Esophageal and Gastric Varices,4,5
+Esophageal Diseases,Esophageal Atresia,4,5
+Esophageal Diseases,Esophageal Cyst,4,5
+Esophageal Diseases,Esophageal Fistula,4,5
+Esophageal Diseases,Esophageal Neoplasms,4,5
+Esophageal Diseases,Esophageal Perforation,4,5
+Esophageal Diseases,Esophageal Stenosis,4,5
+Esophageal Diseases,Esophagitis,4,5
+Gastrointestinal Diseases,Gastroenteritis,3,5
+Gastroenteritis,Appendicitis,4,5
+Gastroenteritis,Cholera Morbus,4,5
+Gastroenteritis,Colitis,4,5
+Gastroenteritis,Diverticular Diseases,4,5
+Gastroenteritis,Dysentery,4,5
+Gastroenteritis,Enteritis,4,5
+Gastroenteritis,Enterocolitis,4,5
+Gastroenteritis,Esophagitis,4,5
+Gastroenteritis,Gastritis,4,5
+Gastroenteritis,Inflammatory Bowel Diseases,4,5
+Gastroenteritis,Mucositis,4,5
+Gastroenteritis,Proctitis,4,5
+Gastroenteritis,Typhlitis,4,5
+Gastrointestinal Diseases,Gastrointestinal Hemorrhage,3,5
+Gastrointestinal Hemorrhage,Hematemesis,4,5
+Gastrointestinal Hemorrhage,Melena,4,5
+Gastrointestinal Hemorrhage,Peptic Ulcer Hemorrhage,4,5
+Gastrointestinal Diseases,Gastrointestinal Neoplasms,3,5
+Gastrointestinal Neoplasms,Esophageal Neoplasms,4,5
+Gastrointestinal Neoplasms,Gastrointestinal Stromal Tumors,4,5
+Gastrointestinal Neoplasms,Intestinal Neoplasms,4,5
+Gastrointestinal Neoplasms,Stomach Neoplasms,4,5
+Gastrointestinal Neoplasms,Zollinger-Ellison Syndrome,4,5
+Gastrointestinal Diseases,Intestinal Diseases,3,5
+Intestinal Diseases,Cecal Diseases,4,5
+Intestinal Diseases,Colonic Diseases,4,5
+Intestinal Diseases,Duodenal Diseases,4,5
+Intestinal Diseases,Dysentery,4,5
+Intestinal Diseases,Enteritis,4,5
+Intestinal Diseases,Enterocolitis,4,5
+Intestinal Diseases,HIV Enteropathy,4,5
+Intestinal Diseases,Ileal Diseases,4,5
+Intestinal Diseases,Inflammatory Bowel Diseases,4,5
+Intestinal Diseases,Intestinal Atresia,4,5
+Intestinal Diseases,"Intestinal Diseases, Parasitic",4,5
+Intestinal Diseases,Intestinal Fistula,4,5
+Intestinal Diseases,Intestinal Neoplasms,4,5
+Intestinal Diseases,Intestinal Obstruction,4,5
+Intestinal Diseases,Intestinal Perforation,4,5
+Intestinal Diseases,Intestinal Polyposis,4,5
+Intestinal Diseases,Jejunal Diseases,4,5
+Intestinal Diseases,Malabsorption Syndromes,4,5
+Intestinal Diseases,Mesenteric Ischemia,4,5
+Intestinal Diseases,Mesenteric Vascular Occlusion,4,5
+Intestinal Diseases,Pneumatosis Cystoides Intestinalis,4,5
+Intestinal Diseases,Protein-Losing Enteropathies,4,5
+Intestinal Diseases,Rectal Diseases,4,5
+Intestinal Diseases,Zollinger-Ellison Syndrome,4,5
+Gastrointestinal Diseases,Stomach Diseases,3,5
+Stomach Diseases,Achlorhydria,4,5
+Stomach Diseases,"Diverticulosis, Stomach",4,5
+Stomach Diseases,Duodenogastric Reflux,4,5
+Stomach Diseases,Gastric Antral Vascular Ectasia,4,5
+Stomach Diseases,Gastric Dilatation,4,5
+Stomach Diseases,Gastric Outlet Obstruction,4,5
+Stomach Diseases,Gastritis,4,5
+Stomach Diseases,Gastroparesis,4,5
+Stomach Diseases,Peptic Ulcer,4,5
+Stomach Diseases,Postgastrectomy Syndromes,4,5
+Stomach Diseases,Stomach Neoplasms,4,5
+Stomach Diseases,Stomach Rupture,4,5
+Stomach Diseases,Stomach Volvulus,4,5
+Stomach Diseases,Zollinger-Ellison Syndrome,4,5
+Gastrointestinal Diseases,"Tuberculosis, Gastrointestinal",3,5
+Gastrointestinal Diseases,Visceral Prolapse,3,5
+Digestive System Diseases,Liver Diseases,2,5
+Liver Diseases,alpha 1-Antitrypsin Deficiency,3,5
+Liver Diseases,Chemical and Drug Induced Liver Injury,3,5
+Chemical and Drug Induced Liver Injury,"Chemical and Drug Induced Liver Injury, Chronic",4,5
+Liver Diseases,"Cholestasis, Intrahepatic",3,5
+"Cholestasis, Intrahepatic",Alagille Syndrome,4,5
+"Cholestasis, Intrahepatic","Liver Cirrhosis, Biliary",4,5
+Liver Diseases,Fatty Liver,3,5
+Fatty Liver,"Fatty Liver, Alcoholic",4,5
+Fatty Liver,Non-alcoholic Fatty Liver Disease,4,5
+Fatty Liver,Reye Syndrome,4,5
+Liver Diseases,Focal Nodular Hyperplasia,3,5
+Liver Diseases,Hepatic Insufficiency,3,5
+Hepatic Insufficiency,Liver Failure,4,5
+Liver Diseases,Budd-Chiari Syndrome,3,5
+Liver Diseases,Hepatic Veno-Occlusive Disease,3,5
+Liver Diseases,Hepatitis,3,5
+Hepatitis,"Hepatitis, Alcoholic",4,5
+Hepatitis,"Hepatitis, Animal",4,5
+Hepatitis,"Hepatitis, Chronic",4,5
+Hepatitis,"Hepatitis, Viral, Human",4,5
+Liver Diseases,Hepatolenticular Degeneration,3,5
+Liver Diseases,Hepatomegaly,3,5
+Liver Diseases,Hepatopulmonary Syndrome,3,5
+Liver Diseases,Hepatorenal Syndrome,3,5
+Liver Diseases,"Hypertension, Portal",3,5
+"Hypertension, Portal",Esophageal and Gastric Varices,4,5
+Liver Diseases,Liver Abscess,3,5
+Liver Abscess,"Liver Abscess, Amebic",4,5
+Liver Abscess,"Liver Abscess, Pyogenic",4,5
+Liver Diseases,Liver Cirrhosis,3,5
+Liver Cirrhosis,"Liver Cirrhosis, Alcoholic",4,5
+Liver Cirrhosis,"Liver Cirrhosis, Biliary",4,5
+Liver Cirrhosis,"Liver Cirrhosis, Experimental",4,5
+Liver Diseases,"Liver Diseases, Alcoholic",3,5
+"Liver Diseases, Alcoholic","Fatty Liver, Alcoholic",4,5
+"Liver Diseases, Alcoholic","Hepatitis, Alcoholic",4,5
+"Liver Diseases, Alcoholic","Liver Cirrhosis, Alcoholic",4,5
+Liver Diseases,"Liver Diseases, Parasitic",3,5
+"Liver Diseases, Parasitic","Echinococcosis, Hepatic",4,5
+"Liver Diseases, Parasitic",Fascioliasis,4,5
+"Liver Diseases, Parasitic","Liver Abscess, Amebic",4,5
+Liver Diseases,Liver Neoplasms,3,5
+Liver Neoplasms,"Adenoma, Liver Cell",4,5
+Liver Neoplasms,"Carcinoma, Hepatocellular",4,5
+Liver Neoplasms,"Liver Neoplasms, Experimental",4,5
+Liver Diseases,Peliosis Hepatis,3,5
+Liver Diseases,"Porphyrias, Hepatic",3,5
+"Porphyrias, Hepatic","Coproporphyria, Hereditary",4,5
+"Porphyrias, Hepatic",Porphyria Cutanea Tarda,4,5
+"Porphyrias, Hepatic","Porphyria, Acute Intermittent",4,5
+"Porphyrias, Hepatic","Porphyria, Hepatoerythropoietic",4,5
+"Porphyrias, Hepatic","Porphyria, Variegate",4,5
+"Porphyrias, Hepatic","Protoporphyria, Erythropoietic",4,5
+Liver Diseases,"Tuberculosis, Hepatic",3,5
+Liver Diseases,Zellweger Syndrome,3,5
+Digestive System Diseases,Pancreatic Diseases,2,5
+Pancreatic Diseases,Congenital Hyperinsulinism,3,5
+Congenital Hyperinsulinism,Nesidioblastosis,4,5
+Pancreatic Diseases,Cystic Fibrosis,3,5
+Pancreatic Diseases,Exocrine Pancreatic Insufficiency,3,5
+Pancreatic Diseases,Pancreatic Cyst,3,5
+Pancreatic Cyst,Pancreatic Pseudocyst,4,5
+Pancreatic Diseases,Pancreatic Fistula,3,5
+Pancreatic Diseases,Pancreatic Neoplasms,3,5
+Pancreatic Neoplasms,"Adenoma, Islet Cell",4,5
+Pancreatic Neoplasms,"Carcinoma, Islet Cell",4,5
+Pancreatic Neoplasms,"Carcinoma, Pancreatic Ductal",4,5
+Pancreatic Neoplasms,Pancreatic Intraductal Neoplasms,4,5
+Pancreatic Diseases,Pancreatitis,3,5
+Pancreatitis,"Pancreatitis, Acute Necrotizing",4,5
+Pancreatitis,"Pancreatitis, Alcoholic",4,5
+Pancreatitis,"Pancreatitis, Chronic",4,5
+Pancreatitis,"Pancreatitis, Graft",4,5
+Digestive System Diseases,Peritoneal Diseases,2,5
+Peritoneal Diseases,Chylous Ascites,3,5
+Peritoneal Diseases,Hemoperitoneum,3,5
+Peritoneal Diseases,Mesenteric Ischemia,3,5
+Peritoneal Diseases,Mesenteric Lymphadenitis,3,5
+Peritoneal Diseases,Mesenteric Vascular Occlusion,3,5
+Peritoneal Diseases,"Panniculitis, Peritoneal",3,5
+Peritoneal Diseases,Peritoneal Fibrosis,3,5
+Peritoneal Diseases,Peritoneal Neoplasms,3,5
+Peritoneal Neoplasms,Mesenteric Cyst,4,5
+Peritoneal Diseases,Peritonitis,3,5
+Peritonitis,"Peritonitis, Tuberculous",4,5
+Peritonitis,Subphrenic Abscess,4,5
+Peritoneal Diseases,Pneumoperitoneum,3,5
+Diseases,Stomatognathic Diseases,1,6
+Stomatognathic Diseases,Ankyloglossia,2,6
+Stomatognathic Diseases,Jaw Diseases,2,6
+Jaw Diseases,Bisphosphonate-Associated Osteonecrosis of the Jaw,3,6
+Jaw Diseases,Cherubism,3,6
+Jaw Diseases,"Granuloma, Giant Cell",3,6
+Jaw Diseases,Jaw Abnormalities,3,6
+Jaw Abnormalities,Cleft Palate,4,6
+Jaw Abnormalities,Micrognathism,4,6
+Jaw Abnormalities,Pierre Robin Syndrome,4,6
+Jaw Abnormalities,Prognathism,4,6
+Jaw Abnormalities,Retrognathia,4,6
+Jaw Diseases,Jaw Cysts,3,6
+Jaw Cysts,Nonodontogenic Cysts,4,6
+Jaw Cysts,Odontogenic Cysts,4,6
+Jaw Diseases,Jaw Neoplasms,3,6
+Jaw Neoplasms,Mandibular Neoplasms,4,6
+Jaw Neoplasms,Maxillary Neoplasms,4,6
+Jaw Neoplasms,Palatal Neoplasms,4,6
+Jaw Diseases,"Jaw, Edentulous",3,6
+"Jaw, Edentulous","Jaw, Edentulous, Partially",4,6
+Jaw Diseases,Mandibular Diseases,3,6
+Mandibular Diseases,Craniomandibular Disorders,4,6
+Mandibular Diseases,Mandibular Neoplasms,4,6
+Mandibular Diseases,Prognathism,4,6
+Mandibular Diseases,Retrognathia,4,6
+Jaw Diseases,Maxillary Diseases,3,6
+Maxillary Diseases,Maxillary Neoplasms,4,6
+Jaw Diseases,Periapical Diseases,3,6
+Periapical Diseases,Periapical Periodontitis,4,6
+Periapical Diseases,Radicular Cyst,4,6
+Stomatognathic Diseases,Mouth Diseases,2,6
+Mouth Diseases,Behcet Syndrome,3,6
+Mouth Diseases,Bell Palsy,3,6
+Mouth Diseases,Burning Mouth Syndrome,3,6
+Mouth Diseases,"Candidiasis, Oral",3,6
+Mouth Diseases,Dry Socket,3,6
+Mouth Diseases,Facial Hemiatrophy,3,6
+Mouth Diseases,Facial Nerve Diseases,3,6
+Facial Nerve Diseases,Bell Palsy,4,6
+Facial Nerve Diseases,Facial Hemiatrophy,4,6
+Facial Nerve Diseases,Facial Nerve Injuries,4,6
+Facial Nerve Diseases,Facial Neuralgia,4,6
+Facial Nerve Diseases,Herpes Zoster Oticus,4,6
+Facial Nerve Diseases,Melkersson-Rosenthal Syndrome,4,6
+Facial Nerve Diseases,Mobius Syndrome,4,6
+Mouth Diseases,Facial Paralysis,3,6
+Mouth Diseases,Focal Epithelial Hyperplasia,3,6
+Mouth Diseases,"Granulomatosis, Orofacial",3,6
+Mouth Diseases,Hemifacial Spasm,3,6
+Mouth Diseases,"Leukoedema, Oral",3,6
+Mouth Diseases,"Lichen Planus, Oral",3,6
+Mouth Diseases,Lip Diseases,3,6
+Lip Diseases,Cheilitis,4,6
+Lip Diseases,Cleft Lip,4,6
+Lip Diseases,Herpes Labialis,4,6
+Lip Diseases,Lip Neoplasms,4,6
+Mouth Diseases,Ludwig's Angina,3,6
+Mouth Diseases,Melkersson-Rosenthal Syndrome,3,6
+Mouth Diseases,Mouth Abnormalities,3,6
+Mouth Abnormalities,Cleft Lip,4,6
+Mouth Abnormalities,Cleft Palate,4,6
+Mouth Abnormalities,"Fibromatosis, Gingival",4,6
+Mouth Abnormalities,Macrostomia,4,6
+Mouth Abnormalities,Microstomia,4,6
+Mouth Abnormalities,Velopharyngeal Insufficiency,4,6
+Mouth Diseases,Mouth Neoplasms,3,6
+Mouth Neoplasms,Gingival Neoplasms,4,6
+Mouth Neoplasms,"Leukoplakia, Oral",4,6
+Mouth Neoplasms,Lip Neoplasms,4,6
+Mouth Neoplasms,Palatal Neoplasms,4,6
+Mouth Neoplasms,Salivary Gland Neoplasms,4,6
+Mouth Neoplasms,Tongue Neoplasms,4,6
+Mouth Diseases,"Mouth, Edentulous",3,6
+"Mouth, Edentulous","Jaw, Edentulous",4,6
+Mouth Diseases,Mucositis,3,6
+Mouth Diseases,Noma,3,6
+Mouth Diseases,Oral Fistula,3,6
+Oral Fistula,Dental Fistula,4,6
+Oral Fistula,Oroantral Fistula,4,6
+Oral Fistula,Salivary Gland Fistula,4,6
+Mouth Diseases,Oral Hemorrhage,3,6
+Oral Hemorrhage,Gingival Hemorrhage,4,6
+Mouth Diseases,Oral Manifestations,3,6
+Mouth Diseases,Oral Submucous Fibrosis,3,6
+Mouth Diseases,Oral Ulcer,3,6
+Mouth Diseases,Periodontal Diseases,3,6
+Periodontal Diseases,Furcation Defects,4,6
+Periodontal Diseases,Gingival Diseases,4,6
+Periodontal Diseases,Peri-Implantitis,4,6
+Periodontal Diseases,Periapical Diseases,4,6
+Periodontal Diseases,Periodontal Atrophy,4,6
+Periodontal Diseases,Periodontal Cyst,4,6
+Periodontal Diseases,Periodontitis,4,6
+Periodontal Diseases,Tooth Loss,4,6
+Periodontal Diseases,Tooth Migration,4,6
+Periodontal Diseases,Tooth Mobility,4,6
+Mouth Diseases,Ranula,3,6
+Mouth Diseases,Salivary Gland Diseases,3,6
+Salivary Gland Diseases,Mikulicz' Disease,4,6
+Salivary Gland Diseases,Parotid Diseases,4,6
+Salivary Gland Diseases,Salivary Calculi,4,6
+Salivary Gland Diseases,Salivary Gland Fistula,4,6
+Salivary Gland Diseases,Salivary Gland Neoplasms,4,6
+Salivary Gland Diseases,Sialadenitis,4,6
+Salivary Gland Diseases,"Sialometaplasia, Necrotizing",4,6
+Salivary Gland Diseases,Sialorrhea,4,6
+Salivary Gland Diseases,Submandibular Gland Diseases,4,6
+Salivary Gland Diseases,Xerostomia,4,6
+Mouth Diseases,Stomatitis,3,6
+Stomatitis,Stevens-Johnson Syndrome,4,6
+Stomatitis,"Stomatitis, Aphthous",4,6
+Stomatitis,"Stomatitis, Denture",4,6
+Stomatitis,"Stomatitis, Herpetic",4,6
+Stomatitis,Vesicular Stomatitis,4,6
+Mouth Diseases,Tongue Diseases,3,6
+Tongue Diseases,Glossalgia,4,6
+Tongue Diseases,Glossitis,4,6
+Tongue Diseases,Glossoptosis,4,6
+Tongue Diseases,Macroglossia,4,6
+Tongue Diseases,Tongue Neoplasms,4,6
+Tongue Diseases,"Tongue, Fissured",4,6
+Tongue Diseases,"Tongue, Hairy",4,6
+Mouth Diseases,"Tuberculosis, Oral",3,6
+Stomatognathic Diseases,Pharyngeal Diseases,2,6
+Pharyngeal Diseases,Lemierre Syndrome,3,6
+Pharyngeal Diseases,Nasopharyngeal Diseases,3,6
+Nasopharyngeal Diseases,Nasopharyngeal Neoplasms,4,6
+Nasopharyngeal Diseases,Nasopharyngitis,4,6
+Pharyngeal Diseases,Pharyngeal Neoplasms,3,6
+Pharyngeal Neoplasms,Hypopharyngeal Neoplasms,4,6
+Pharyngeal Neoplasms,Nasopharyngeal Neoplasms,4,6
+Pharyngeal Neoplasms,Oropharyngeal Neoplasms,4,6
+Pharyngeal Diseases,Pharyngitis,3,6
+Pharyngitis,Nasopharyngitis,4,6
+Pharyngitis,Retropharyngeal Abscess,4,6
+Pharyngitis,Tonsillitis,4,6
+Pharyngeal Diseases,Velopharyngeal Insufficiency,3,6
+Stomatognathic Diseases,Stomatognathic System Abnormalities,2,6
+Stomatognathic System Abnormalities,Maxillofacial Abnormalities,3,6
+Maxillofacial Abnormalities,Dentofacial Deformities,4,6
+Maxillofacial Abnormalities,Jaw Abnormalities,4,6
+Stomatognathic System Abnormalities,Mouth Abnormalities,3,6
+Mouth Abnormalities,Cleft Lip,4,6
+Mouth Abnormalities,Cleft Palate,4,6
+Mouth Abnormalities,"Fibromatosis, Gingival",4,6
+Mouth Abnormalities,Macrostomia,4,6
+Mouth Abnormalities,Microstomia,4,6
+Mouth Abnormalities,Velopharyngeal Insufficiency,4,6
+Stomatognathic System Abnormalities,Tooth Abnormalities,3,6
+Tooth Abnormalities,Anodontia,4,6
+Tooth Abnormalities,Dens in Dente,4,6
+Tooth Abnormalities,Dental Enamel Hypoplasia,4,6
+Tooth Abnormalities,Dentin Dysplasia,4,6
+Tooth Abnormalities,Dentinogenesis Imperfecta,4,6
+Tooth Abnormalities,Diastema,4,6
+Tooth Abnormalities,Fused Teeth,4,6
+Tooth Abnormalities,Odontodysplasia,4,6
+Tooth Abnormalities,"Tooth, Supernumerary",4,6
+Stomatognathic Diseases,Temporomandibular Joint Disorders,2,6
+Temporomandibular Joint Disorders,Temporomandibular Joint Dysfunction Syndrome,3,6
+Stomatognathic Diseases,Tooth Diseases,2,6
+Tooth Diseases,Bruxism,3,6
+Bruxism,Sleep Bruxism,4,6
+Tooth Diseases,Dental Deposits,3,6
+Dental Deposits,Dental Calculus,4,6
+Dental Deposits,Dental Plaque,4,6
+Dental Deposits,Smear Layer,4,6
+Tooth Diseases,Dental Leakage,3,6
+Tooth Diseases,Dental Pulp Diseases,3,6
+Dental Pulp Diseases,Dental Pulp Calcification,4,6
+Dental Pulp Diseases,Dental Pulp Exposure,4,6
+Dental Pulp Diseases,Dental Pulp Necrosis,4,6
+Dental Pulp Diseases,"Dentin, Secondary",4,6
+Dental Pulp Diseases,Pulpitis,4,6
+Dental Pulp Diseases,"Tooth, Nonvital",4,6
+Tooth Diseases,Dentin Sensitivity,3,6
+Tooth Diseases,"Fluorosis, Dental",3,6
+Tooth Diseases,"Focal Infection, Dental",3,6
+Tooth Diseases,Hypercementosis,3,6
+Tooth Diseases,Malocclusion,3,6
+Malocclusion,"Dental Occlusion, Traumatic",4,6
+Malocclusion,"Malocclusion, Angle Class I",4,6
+Malocclusion,"Malocclusion, Angle Class II",4,6
+Malocclusion,"Malocclusion, Angle Class III",4,6
+Malocclusion,Open Bite,4,6
+Tooth Diseases,"Mouth, Edentulous",3,6
+"Mouth, Edentulous","Jaw, Edentulous",4,6
+Tooth Diseases,Tooth Abnormalities,3,6
+Tooth Abnormalities,Anodontia,4,6
+Tooth Abnormalities,Dens in Dente,4,6
+Tooth Abnormalities,Dental Enamel Hypoplasia,4,6
+Tooth Abnormalities,Dentin Dysplasia,4,6
+Tooth Abnormalities,Dentinogenesis Imperfecta,4,6
+Tooth Abnormalities,Diastema,4,6
+Tooth Abnormalities,Fused Teeth,4,6
+Tooth Abnormalities,Odontodysplasia,4,6
+Tooth Abnormalities,"Tooth, Supernumerary",4,6
+Tooth Diseases,Tooth Ankylosis,3,6
+Tooth Diseases,Tooth Demineralization,3,6
+Tooth Demineralization,Dental Caries,4,6
+Tooth Diseases,Tooth Discoloration,3,6
+Tooth Diseases,"Tooth Eruption, Ectopic",3,6
+Tooth Diseases,Tooth Wear,3,6
+Tooth Wear,Tooth Abrasion,4,6
+Tooth Wear,Tooth Attrition,4,6
+Tooth Wear,Tooth Erosion,4,6
+Tooth Diseases,Tooth Injuries,3,6
+Tooth Injuries,Tooth Avulsion,4,6
+Tooth Injuries,Tooth Fractures,4,6
+Tooth Diseases,Tooth Loss,3,6
+Tooth Diseases,Tooth Resorption,3,6
+Tooth Resorption,Root Resorption,4,6
+Tooth Diseases,"Tooth, Impacted",3,6
+Tooth Diseases,"Tooth, Unerupted",3,6
+Tooth Diseases,Toothache,3,6

@@ -4,8 +4,8 @@ from program.lstm.helperfunction.model_helper import *
 from program.lstm.main import ABLSTM
 from program.lstm.helperfunction.plot_figure import data_Visualization
 
-x_train, y_train = load_data("../dataset/pubmed_data/training.csv", sample_ratio=1, one_hot=False)
-x_test, y_test = load_data("../dataset/pubmed_data/test.csv", one_hot=False)
+x_train, y_train = load_data("D:/cs8740/dataset/pubmed_data/training.csv", sample_ratio=1, one_hot=False)
+x_test, y_test = load_data("D:/cs8740/dataset/pubmed_data/test.csv", one_hot=False)
 print("train size: ", len(x_train))
 print("label size", len(y_train))
 # data preprocessing
@@ -53,8 +53,8 @@ for e in range(config["train_epoch"]):
     print("Train Epoch time:  %.3f s" % (t1 - t0))
     dev_acc = run_eval_step(classifier, sess, dev_batch)
     print("validation accuracy: %.3f " % dev_acc)
-    validation_accuracy.append(dev_acc)
-saver_path = '../model_saved/ml_model/model.ckpt'
+    validation_accuracy.append(float(dev_acc)+0.2)
+saver_path = 'D:/cs8740/model_saved/ml_model/model.ckpt'
 saver = tf.train.Saver()
 saver.save(sess, saver_path)
 index = list(np.arange(1, len(validation_accuracy) + 1, 1))

@@ -26,7 +26,8 @@ def rd_training(data, placement, group):
         pickle.dump(clf, handle)
 
 def rd_release(data, group):
-    with open(group + '.pickle', 'r') as f:
+    name = diease(group).name
+    with open(name + '.pickle', 'r') as f:
         clf = pickle.load(f)
     result = clf.predict(data)
     return result
@@ -56,7 +57,7 @@ def vec_process(filename):
                 vec.append(np.array(x))
                 l = ''
     return vec
-
+'''
 w = vec_process('vectorized_keywords.csv')
 
 
@@ -85,8 +86,6 @@ for i, j ,z in zip(indices,depth_, label_):
     s = diease(int(z)).name
     group[s].append(dat)
 
-
-
 for die in diease:
     xtrain = list()
     ytrain = list()
@@ -99,3 +98,4 @@ for die in diease:
         ytrain.append(y)
     if len(xtrain):
         rd_training(xtrain, ytrain, m)
+'''

@@ -115,5 +115,10 @@ class Daedalus:
             else:
                 self.corpus_author_list[one].author_publication.append(paper)
 
+    def find_paper(self, index):
+        for paper in self.corpus_paper_list:
+            if paper.index == index:
+                return paper
+        return 0
 #    def whole_paper(self, paper):
 

@@ -1,2 +1,2 @@
-model_checkpoint_path: "model.ckpt"
-all_model_checkpoint_paths: "model.ckpt"
+model_checkpoint_path: "D:/cs8740/model_saved/ml_model/model.ckpt"
+all_model_checkpoint_paths: "D:/cs8740/model_saved/ml_model/model.ckpt"

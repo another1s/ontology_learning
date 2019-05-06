@@ -11,6 +11,12 @@ def readfile(filename, path = '../dataset/pubmed_data/'):
     dict_reader = csv.DictReader(csvfile)
     return dict_reader
 
+
+def readfile0(filename):
+    csvfile = open(filename, 'r', encoding='utf-8 ')
+    dict_reader = csv.DictReader(csvfile)
+    return dict_reader
+
 def save_to_local(keywords,index ,filename):
     with open(filename, 'a') as f:
         for keyword in keywords:
@@ -94,13 +100,13 @@ def killerqueen():
     save_all(corpus.corpus_paper_list, "comprehensive.csv")
     return keywords, vectorized_keywords, tfidf, corpus
 
-def killerqueen_release(fname, mname):
+def killerqueen_release(fname ,mname):
     keywords_per_paper = 50
     paper = Paper()
     corpus = Daedalus()
-    papers = readfile(fname)
+    papers = readfile0(fname)
     words = stopwords.words('english')
-    print(words)
+    #print(words)
     for row in papers:
         # a = row['\ufefflabel']
         paper.define(row['\ufefflabel'], row['title'], filtering_words(row['abstract']),
@@ -122,8 +128,8 @@ def killerqueen_release(fname, mname):
         t = re.sub("[0-9]", "", paper.abstract)
         plaintext.append(t)
     abstract_tfidf, words = FE.reload(plaintext, vectorizer)
-    print(abstract_tfidf)
-    print(words)
+    #print(abstract_tfidf)
+    #print(words)
     keywords = list()
     vectorized_keywords = list()
     tfidf = abstract_tfidf.A
@@ -136,11 +142,29 @@ def killerqueen_release(fname, mname):
         for element in k_words_seq:
             _keywords.append(words[element])
         keywords.append(_keywords)
-    print(keywords)
-    save_to_local(keywords, "keywords.csv")
-    save_to_local(vectorized_keywords, "vectorized_keywords")
+
     for paper, keyword, vectorized_keyword in zip(corpus.corpus_paper_list, keywords, vectorized_keywords):
         paper.computed_features(keywords=keyword, vectorized_keywords=vectorized_keyword)
     return keywords, vectorized_keywords, tfidf, corpus
 
-keywords, vectorized_keywords, tfidf, corpus = killerqueen()
+#keywords, vectorized_keywords, tfidf, corpus = killerqueen()
+
+def get_whole_corpus(filename):
+    # some constant
+    keywords_per_paper = 50
+    paper = Paper()
+    corpus = Daedalus()
+    papers = readfile0(filename)
+    words = stopwords.words('english')
+    #print(words)
+    for row in papers:
+        #a = row['\ufefflabel']
+        paper.define(row['\ufefflabel'], row['title'], filtering_words(row['abstract']), filtering_words(row['features']), filtering_words(row['authorlist']), row['index'], None)
+        filtered_words = [word for word in paper.abstract.split() if word not in stopwords.words('english')]
+        d =''
+        for r in filtered_words:
+            d = d + ' ' + r
+        paper.abstract = d
+        corpus.add_paper(paper)
+        corpus.add_author(paper)
+    return corpus
