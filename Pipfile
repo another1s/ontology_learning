@@ -1,20 +1,15 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 verify_ssl = true
 
 [dev-packages]
+pandas = "*"
+matplotlib = "*"
 
 [packages]
-numpy = "*"
 tensorflow = "*"
-tensorflow-transform = "*"
-scikit-learn = "*"
 pandas = "*"
-matplot = "*"
-matplotlib = "*"
-bert-serving-client = "==1.8.9"
-bert-serving-server = "*"
 
 [requires]
 python_version = "3.6"
