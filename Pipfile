@@ -6,15 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-numpy = "*"
-tensorflow = "*"
-tensorflow-transform = "*"
-scikit-learn = "*"
-pandas = "*"
-matplot = "*"
-matplotlib = "*"
-bert-serving-client = "==1.8.9"
-bert-serving-server = "*"
 
 [requires]
 python_version = "3.6"
