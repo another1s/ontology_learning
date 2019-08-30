@@ -1,4 +1,3 @@
-import pandas
 
 '''
 features of papers used including:

@@ -1,7 +1,7 @@
 from Bio import Entrez
-from mih.Artemis import Paper
+from program.ds import Paper
 import csv
-from mih.spiders.transenddata import trans_data
+
 import json
 #  "Anatomy", "Organisms", "Diseases", "Chemicals and Drugs", "Analytical, Diagnostic and Therapeutic Techniques, and Equipment",
 #  "Psychiatry and Psychology", "Phenomena and Processes", "Disciplines and Occupations", "Anthropology, Education, Sociology, and Social Phenomena",
@@ -44,7 +44,6 @@ def fetch_details(id_list):
 
 if __name__ == '__main__':
     Json_lized = Paper()
-    data_sent = trans_data()
     results = search('Publication Characteristics')
     id_list = results['IdList']
     papers = fetch_details(id_list)

@@ -4,8 +4,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+tensorflow = "*"
+scikit-learn = "*"
 
 [packages]
+biopython = "*"
+nltk = "*"
 
 [requires]
 python_version = "3.6"
