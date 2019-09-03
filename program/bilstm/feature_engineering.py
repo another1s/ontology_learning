@@ -1,6 +1,7 @@
 import tensorflow as tf
 import tensorflow.keras.preprocessing
 import numpy as np
+from program.bilstm.d import *
 
 
 class PaperClassification:
@@ -26,8 +27,8 @@ class PaperClassification:
         self.embedding_pretrained = embedding_pretrained
 
     @staticmethod
-    def self_attention(key, query, value):
-        return
+    def self_attention(query, value):
+        return tf.keras.layers.Attention()([query, value])
 
     def build_model(self):
         print("building graph")
@@ -35,9 +36,13 @@ class PaperClassification:
         # embeddings_var = tf.Variable(tf.random_uniform([self.embedding_size, self.embedding_dim], -1.0, 1.0),
         #                              trainable=True, name='embeddings_var')
         # batch_embedded = tf.nn.embedding_lookup(embeddings_var, self.x, name='batch_embedded')
+
+        # embedding input: [batch_size, sen_len], embedding output:[batch_size, sen_len, embedding_size]
         embedding_layer = tf.keras.layers.Embedding(input_dim=self.embedding_size, output_dim=self.embedding_dim,
                                                     input_length=self.sentence_len)
         embedding_layer.set_weights([self.embedding_pretrained])
+
+        # LSTM model input:[batch_size, sen_len, embedding_size], output:[batch_size, sen_len, 2*hidden_units]
         Lstm_Fw = tf.keras.layers.LSTM(units=self.embedding_dim, activation='tanh', use_bias=True,
                                        unit_forget_bias=True)
         Lstm_Bw = tf.keras.layers.LSTM(units=self.embedding_dim, activation='tanh', use_bias=True,
@@ -45,10 +50,12 @@ class PaperClassification:
         Bilstm = tf.keras.layers.Bidirectional(layer=Lstm_Fw, backward_layer=Lstm_Bw, merge_mode='concat',
                                                input_shape=(self.batch_size, self.sentence_len))
 
+        # attention input:[batch_size, sen_len, 2*hidden_units], output:[batch_size, sen_len, 2*hidden_units]
+        attention_weights = self.self_attention(query=Bilstm.output, value=Bilstm.output)
+
         model = tf.keras.Sequential(
             embedding_layer,
             Bilstm,
-
         )
         # rnn_outputs, _ = bi_rnn(LSTMCell(self.hidden_size),
         #                         LSTMCell(self.hidden_size),
@@ -125,3 +132,4 @@ class PaperClassification:
 
     def test(self):
         return
+
