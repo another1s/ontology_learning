@@ -1,7 +1,7 @@
 import tensorflow as tf
 import tensorflow.keras.preprocessing
 import numpy as np
-from program.bilstm.d import *
+
 
 
 class PaperClassification:

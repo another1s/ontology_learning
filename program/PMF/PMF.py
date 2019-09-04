@@ -2,30 +2,36 @@ import numpy as np
 
 
 class PMF:
-    def __init__(self):
+    def __init__(self, pretrained_addr=None, userid=None, itemid=None):
         self.model = dict()
+        if pretrained_addr:
+            self.pretrained = self.load_model(pretrained_addr)
+        if userid and itemid:
+            self.userid = userid
+            self.itemid = itemid
 
     # U: [num_user, hidden_feature], V:[num_item, hidden_feature]
-    #
-    def train(self, num_user, num_item, train, test, learning_rate, K, regu_u, regu_i, maxiter):
-        U = np.random.normal(0,0.1,(num_user,K))
-        V = np.random.normal(0, 0.1, (num_item, K))
-        pre_rmse=100.0
-        endure_count=3
-        patience=0
+    def train(self, num_user, num_item, train, test, learning_rate, K, regu_u, regu_i, maxiter, update: 'bool'):
+        if update == True and self.pretrained:
+            U = self.pretrained['U']
+            V = self.pretrained['V']
+        else:
+            U = np.random.normal(0, 0.1, (num_user, K))
+            V = np.random.normal(0, 0.1, (num_item, K))
+        pre_rmse = 100.0
+        endure_count = 3
+        patience = 0
         for iter in range(maxiter):
             loss = 0.0
             for data in train:
                 user = data[0]
                 item = data[1]
                 rating = data[2]
-
                 predict_rating = np.dot(U[user],V[item].T)
                 error = rating-predict_rating
                 loss += error**2
                 U[user] += learning_rate*(error*V[item]-regu_u*U[user])
                 V[item] += learning_rate*(error*U[user]-regu_i*V[item])
-
                 loss += regu_u*np.square(U[user]).sum()+regu_i*np.square(V[item]).sum()
             loss = 0.5*loss
             rmse = self.eval_rmse(U, V, test)
@@ -37,10 +43,31 @@ class PMF:
                 patience += 1
             if patience >= endure_count:
                 self.save_model(U=U, V=V)
+                break
+
+    # input: chosen_user(int) , itemid(list)
+    # output: result [itemid, predict_rate]
+    def recommendbyrank(self, chosen_user, itemid, rank_num):
+        result = []
+        for id in itemid:
+            predict, user, item = self.predict([chosen_user, id])
+            result.append((item, predict))
+
+        sorted_result = sorted(result, key=lambda r: r[1])
+        return sorted_result[0:rank_num]
+
+    # input: [user_ind, paper_ind], output: predict_rate(float)
+    def predict(self, data):
+        user = data[0]
+        item = data[1]
+        predict_rate = np.dot(self.model['U'][user], self.model['V'][item].T)
+        return predict_rate, user, item
 
     def save_model(self, U, V):
         self.model['U'] = U
         self.model['V'] = V
+        np.savetxt('U.txt', U)
+        np.savetxt('V.txt', V)
         return self.model
 
     @staticmethod
@@ -56,12 +83,13 @@ class PMF:
         rmse = np.sqrt(tmp_rmse/test_count)
         return rmse
 
-    # input: [user_ind, paper_ind], output: predict_rate(float)
-    def predict(self, data):
-        user = data[0]
-        item = data[1]
-        predict_rate = np.dot(self.model['U'][user], self.model['V'][item].T)
-        return predict_rate, user, item
+    @staticmethod
+    def load_model(address):
+        U = np.loadtxt(address + 'U.txt')
+        V = np.loadtxt(address + 'V.txt')
+        model = {'U': U, 'V': V}
+        return model
+
 
 def read_data(path,train_ratio):
     user_set = {}
@@ -89,7 +117,7 @@ def read_data(path,train_ratio):
 if __name__=='__main__':
     num_user, num_item, train, test = read_data('./data/ratings.dat', 0.8)
     pmf = PMF()
-    pmf.train(num_user, num_item, train, test, 0.01, 10, 0.01, 0.01, 100)
+    pmf.train(num_user, num_item, train, test, 0.01, 10, 0.01, 0.01, 100, False)
     predict_rate, userid, paperid = pmf.predict([2312, 3])
     print(predict_rate, ' ', userid, ' ', paperid)
 
