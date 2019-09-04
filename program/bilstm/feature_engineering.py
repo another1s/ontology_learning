@@ -50,7 +50,7 @@ class PaperClassification:
         Bilstm = tf.keras.layers.Bidirectional(layer=Lstm_Fw, backward_layer=Lstm_Bw, merge_mode='concat',
                                                input_shape=(self.batch_size, self.sentence_len))
 
-        # attention input:[batch_size, sen_len, 2*hidden_units], output:[batch_size, sen_len, 2*hidden_units]
+        # attention input:[batch_size, sen_len, 2*hidden_units], output:sen_len*[batch_size, sen_len, 2*hidden_units]
         attention_weights = self.self_attention(query=Bilstm.output, value=Bilstm.output)
 
         model = tf.keras.Sequential(

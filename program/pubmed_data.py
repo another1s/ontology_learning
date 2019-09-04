@@ -11,16 +11,16 @@ def bio_category():
     categories = list()
     return categories
 
-def save_to_local(papers):
-    filename0 = 'E:/btd/mih/data/roughdata4.csv'
-    with open(filename0, 'a', encoding='utf-8') as f2:
+def save_to_local_v1(papers):
+    filename0 = '../dataset/pubmed_data/'
+    with open(filename0, 'a+', encoding='utf-8') as f2:
         writer = csv.writer(f2)
         writer.writerow(['title', 'abstract', 'features', 'authorlist'])
         for paper in papers:
             writer.writerow([11, paper['mainTitle'], paper['abstractContent'], paper['collections'], paper['publisher']])
         f2.close()
 
-def save_to_local1(papers):
+def save_to_local_v2(papers):
     filename0 = 'E:/btd/mih/data/file4.csv'
     with open(filename0, 'a', encoding='utf-8') as f2:
         writer = csv.writer(f2)
@@ -55,9 +55,4 @@ if __name__ == '__main__':
         b = Json_lized.pubmed(paper['MedlineCitation'])
         Json_lized.paper_list.append(b)
         #print(b)
-    save_to_local(Json_lized.paper_list)
-    #rez = data_sent.post_data(endpoint="http://35.247.68.0:8080", data=Json_lized.paper_list)
-    #if rez:
-     #   print(json.loads(rez))
-    #else:
-     #   print("No papers")
+    save_to_local_v1(Json_lized.paper_list)
