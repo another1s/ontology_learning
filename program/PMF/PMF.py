@@ -63,6 +63,7 @@ class PMF:
         predict_rate = np.dot(self.model['U'][user], self.model['V'][item].T)
         return predict_rate, user, item
 
+    # input:  U [user_num, user_hidden_feature], V[item_num, item_hidden_feature]
     def save_model(self, U, V):
         self.model['U'] = U
         self.model['V'] = V
