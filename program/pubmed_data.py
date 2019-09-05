@@ -1,6 +1,7 @@
 from Bio import Entrez
 from program.ds import Paper
 import csv
+import sqlite3
 
 import json
 #  "Anatomy", "Organisms", "Diseases", "Chemicals and Drugs", "Analytical, Diagnostic and Therapeutic Techniques, and Equipment",
@@ -12,31 +13,41 @@ def bio_category():
     return categories
 
 def save_to_local_v1(papers):
-    filename0 = '../dataset/pubmed_data/'
+    filename0 = '../dataset/pubmed_data/papers.csv'
     with open(filename0, 'a+', encoding='utf-8') as f2:
         writer = csv.writer(f2)
         writer.writerow(['title', 'abstract', 'features', 'authorlist'])
         for paper in papers:
-            writer.writerow([11, paper['mainTitle'], paper['abstractContent'], paper['collections'], paper['publisher']])
+            writer.writerow([0, paper['mainTitle'], paper['abstractContent'], paper['collections'], paper['publisher']])
         f2.close()
 
 def save_to_local_v2(papers):
-    filename0 = 'E:/btd/mih/data/file4.csv'
-    with open(filename0, 'a', encoding='utf-8') as f2:
-        writer = csv.writer(f2)
-        for paper in papers:
-            writer.writerow([1, paper['mainTitle'], paper['abstractContent']])
+    conn = sqlite3.connect('test.db')
+    cur = conn.cursor()
+    # Create table
+    c.execute('''CREATE TABLE papers
+                 (date text, trans text, symbol text, qty real, price real)''')
+    for paper in papers:
+        c.execute("INSERT INTO papers VALUES ('2006-01-05','BUY','RHAT',100,35.14)")
+
+    # Save (commit) the changes
+    conn.commit()
+
+    # We can also close the connection if we are done with it.
+    # Just be sure any changes have been committed or they will be lost.
+    conn.close()
+
 
 def search(query):
-    Entrez.email = 'hzythefirst@gmail.com'
-    handle = Entrez.esearch(db='pubmed', sort='relevance', retmax='10000',retmode='xml', term=query)
+    Entrez.email = 'hzythesecond@gmail.com'
+    handle = Entrez.esearch(db='pubmed', sort='relevance', retmax='1',retmode='xml', term=query)
     results = Entrez.read(handle)
     return results
 
 
 def fetch_details(id_list):
     ids = ','.join(id_list)
-    Entrez.email = 'hzythefirst@gmail.com'
+    Entrez.email = 'hzythesecond@gmail.com'
     handle = Entrez.efetch(db='pubmed',retmode='xml',id=ids)
     results = Entrez.read(handle)
     return results
@@ -44,7 +55,7 @@ def fetch_details(id_list):
 
 if __name__ == '__main__':
     Json_lized = Paper()
-    results = search('Publication Characteristics')
+    results = search('Anatomy')
     id_list = results['IdList']
     papers = fetch_details(id_list)
     publications = list()

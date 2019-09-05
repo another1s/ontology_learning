@@ -21,6 +21,17 @@ class UserGroup(Users):
             self.user_list.append(user)
 
 
-def fake_users(user_num):
+def fake_users(user_num, paper_num, instances):
+    user_id = np.random.random_integers(low=0, high=user_num, size=instances)
+    paper_id = np.random.random_integers(low=0, high=paper_num, size=instances)
+    a = paper_id.T
+    user_paper = np.vstack((user_id, paper_id.T))
+    action = np.random.random_integers(low=0, high=2, size=instances)
+    data = np.vstack((user_paper, action))
+    print(data)
+    data = data.T
+    np.savetxt('fake.txt', data)
+    return data
 
-    return
+
+fake_users(3000, 30000, 12000)
