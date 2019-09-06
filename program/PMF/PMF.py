@@ -87,7 +87,6 @@ class PMF:
                 self.save_model(U=U, V=V)
                 break
 
-
     # input: chosen_user(int) , itemid(list)
     # output: result [itemid, predict_rate]
     def recommendbyrank(self, chosen_user, itemid, rank_num):
@@ -192,10 +191,12 @@ if __name__=='__main__':
     predict_rate, userid, paperid = pmf.predict([1, 3])
     print(predict_rate, ' ', userid, ' ', paperid)
 
-
+    item_id = [n for n in range(0, 1000)]
+    print(pmf.recommendbyrank(chosen_user=1, itemid=item_id, rank_num=10))
     pmf.iterative_training(num_user_added=user_added, num_item_added=item_added, train=train_list, test=test,
                            learning_rate=0.01, K=10, regu_u=0.01, regu_i=0.01, maxiter=100)
-    predict_rate, userid, paperid = pmf.predict([1, 3])
-    print(predict_rate, ' ', userid, ' ', paperid)
+    print(pmf.recommendbyrank(chosen_user=1, itemid=item_id, rank_num=10))
+    # predict_rate, userid, paperid = pmf.predict([1, 3])
+    # print(predict_rate, ' ', userid, ' ', paperid)
 
 
