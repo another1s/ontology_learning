@@ -8,9 +8,11 @@ import json
 #  "Psychiatry and Psychology", "Phenomena and Processes", "Disciplines and Occupations", "Anthropology, Education, Sociology, and Social Phenomena",
 # "
 
+
 def bio_category():
     categories = list()
     return categories
+
 
 def save_to_local_v1(papers):
     filename0 = '../dataset/pubmed_data/papers.csv'
@@ -21,18 +23,25 @@ def save_to_local_v1(papers):
             writer.writerow([0, paper['mainTitle'], paper['abstractContent'], paper['collections'], paper['publisher']])
         f2.close()
 
-def save_to_local_v2(papers):
-    conn = sqlite3.connect('test.db')
-    cur = conn.cursor()
-    # Create table
-    c.execute('''CREATE TABLE papers
-                 (date text, trans text, symbol text, qty real, price real)''')
-    for paper in papers:
-        c.execute("INSERT INTO papers VALUES ('2006-01-05','BUY','RHAT',100,35.14)")
 
+def save_to_local_v2(papers):
+    conn = sqlite3.connect('testdata.db')
+    cur = conn.cursor()
+    # # Create table
+    # cur.execute()
+    # cur.execute('''CREATE TABLE Papers
+    #              (mainTitle text, Abstract text, Collections text, Publisher text, Label text, PublicationType text)''')
+    for paper in papers:
+        title = paper['mainTitle']
+        abstract = ''.join(paper['abstractContent'])
+        keywords = ''.join(paper['collections'])
+        publisher = ''.join(paper['publisher'])
+        label = '7'
+        publicationType = paper['publicationType']
+        cur.execute("INSERT INTO Papers (MainTitle, Abstract, Collections, Publisher, Label, PublicationType) VALUES (?, ?, ?, ?, ?, ?)",
+                    (title, abstract, keywords, publisher, label, publicationType))
     # Save (commit) the changes
     conn.commit()
-
     # We can also close the connection if we are done with it.
     # Just be sure any changes have been committed or they will be lost.
     conn.close()
@@ -40,7 +49,7 @@ def save_to_local_v2(papers):
 
 def search(query):
     Entrez.email = 'hzythesecond@gmail.com'
-    handle = Entrez.esearch(db='pubmed', sort='relevance', retmax='1',retmode='xml', term=query)
+    handle = Entrez.esearch(db='pubmed', sort='relevance', retmax='10000', retmode='xml', term=query)
     results = Entrez.read(handle)
     return results
 
@@ -48,14 +57,14 @@ def search(query):
 def fetch_details(id_list):
     ids = ','.join(id_list)
     Entrez.email = 'hzythesecond@gmail.com'
-    handle = Entrez.efetch(db='pubmed',retmode='xml',id=ids)
+    handle = Entrez.efetch(db='pubmed', retmode='xml', id=ids)
     results = Entrez.read(handle)
     return results
 
 
 if __name__ == '__main__':
     Json_lized = Paper()
-    results = search('Anatomy')
+    results = search("Disciplines and Occupations")
     id_list = results['IdList']
     papers = fetch_details(id_list)
     publications = list()
@@ -66,4 +75,5 @@ if __name__ == '__main__':
         b = Json_lized.pubmed(paper['MedlineCitation'])
         Json_lized.paper_list.append(b)
         #print(b)
-    save_to_local_v1(Json_lized.paper_list)
+    #save_to_local_v1(Json_lized.paper_list)
+    save_to_local_v2(Json_lized.paper_list)

@@ -1,4 +1,5 @@
 import numpy as np
+from program.PMF.users import fake_users
 
 
 class PMF:
@@ -12,7 +13,10 @@ class PMF:
 
     # U: [num_user, hidden_feature], V:[num_item, hidden_feature]
     def train(self, num_user, num_item, train, test, learning_rate, K, regu_u, regu_i, maxiter, update: 'bool'):
-        if update == True and self.pretrained:
+        if self.model:
+            U = self.model['U']
+            V = self.model['V']
+        elif update is True and self.pretrained:
             U = self.pretrained['U']
             V = self.pretrained['V']
         else:
@@ -27,7 +31,7 @@ class PMF:
                 user = data[0]
                 item = data[1]
                 rating = data[2]
-                predict_rating = np.dot(U[user],V[item].T)
+                predict_rating = np.dot(U[user], V[item].T)
                 error = rating-predict_rating
                 loss += error**2
                 U[user] += learning_rate*(error*V[item]-regu_u*U[user])
@@ -121,4 +125,8 @@ if __name__=='__main__':
     pmf.train(num_user, num_item, train, test, 0.01, 10, 0.01, 0.01, 100, False)
     predict_rate, userid, paperid = pmf.predict([2312, 3])
     print(predict_rate, ' ', userid, ' ', paperid)
+    added_train, train_list = fake_users(user_num=1000, paper_num=5000, instances=3000)
+    #pmf.train(num_user=1000, num_item)
+    #pmf.train(num_user=1000)
+
 

@@ -31,7 +31,10 @@ def fake_users(user_num, paper_num, instances):
     print(data)
     data = data.T
     np.savetxt('fake.txt', data)
-    return data
+    return data, list(data)
 
 
-fake_users(3000, 30000, 12000)
+res = ['wew', 'ewew', 'weww1']
+print(str(res))
+# res1, res2 = fake_users(3000, 30000, 12000)
+# print(1)

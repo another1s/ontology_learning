@@ -11,7 +11,7 @@ __pycache__/
 
 # big data model
 /model_saved/word_embedding/uncased_L-24_H-1024_A-16/uncased_L-24_H-1024_A-16/bert_model.ckpt.data-00000-of-00001
-
+*.db
 
 # Distribution / packaging
 .Python
