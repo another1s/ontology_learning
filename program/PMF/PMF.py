@@ -172,7 +172,7 @@ def read_data(path, train_ratio):
 
 
 if __name__=='__main__':
-    num_user, num_item, train, test, user_set, item_set = read_data('./data/ratings.dat', 0.8)
+    num_user, num_item, train, test, user_set, item_set = read_data('program/PMF/data/ratings.dat', 0.8)
     pmf = PMF()
     added_train, train_list = fake_users(user_num=3, paper_num=120, instances=1200)
     pmf.load_user_item_set(user_set, item_set)
