@@ -120,7 +120,7 @@ def read_data(path,train_ratio):
 
 
 if __name__=='__main__':
-    num_user, num_item, train, test = read_data('./data/ratings.dat', 0.8)
+    num_user, num_item, train, test = read_data('program/PMF/data/ratings.dat', 0.8)
     pmf = PMF()
     pmf.train(num_user, num_item, train, test, 0.01, 10, 0.01, 0.01, 100, False)
     predict_rate, userid, paperid = pmf.predict([2312, 3])
